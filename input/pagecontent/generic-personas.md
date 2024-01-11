@@ -27,6 +27,12 @@ Related personas:,
       <td>3221 (Nursing Associate Professional)</td>
     </tr>
     <tr>
+      <td> Clerical Staff/Facility HRIO </td>
+      <td> Assist in scheduling appointments, answer phones, greet patients, keep/document medical records, handle medical billing.</td>
+      <td> Registration Clerk </td>
+      <td> 3252 (Clerk, information: health) </td>
+    </tr>
+    <tr>
       <td>Community Health Assistant(CHA)</td>
       <td> -- </td>
       <td> N/A </td>
@@ -88,34 +94,41 @@ In addition to the central personas detailed above, additional personas that pla
   </thead>
   <tbody>
     <tr>
-      <td> Clerical staff</td>
-      <td> -- </td>
-      <td> -- </td>
-      <td> -- </td>
+      <td> Caregiver</td>
+      <td> This can be the mother, father, guardian, carer of the child, infant, elderly, or disabled person </td>
+      <td> Parent, Guardian </td>
+      <td> N/A </td>
     </tr>
     <tr>
-      <td>Community health volunteer( CHV)</td>
-      <td> -- </td>
-      <td> -- </td>
-      <td> ---</td>
+      <td>Client</td>
+      <td> A person who intends to receive vaccination services from the targeted health worker personas. 
+           <br/>A client who is 17 years of age or younger is considered a child.  </td>
+      <td> Vaccinated person </td>
+      <td> N/A </td>
     </tr>
     <tr>
-      <td>patient</td>
-      <td> -- </td>
-      <td> -- </td>
-      <td> ---</td>
+      <td>Child</td>
+      <td> The child to receive vaccination services from the targeted health worker personas. 
+        <br/> Brought to a clinic for vaccination and other health related needs by caregiver </td>
+      <td> Infant, Baby, Client </td>
+      <td> N/A </td>
     </tr>
     <tr>
-      <td>caregiver</td>
-      <td> -- </td>
-      <td> -- </td>
-      <td> ---</td>
+      <td>County & National ICT Officer</td>
+      <td> Responsible for technology management infrastructure at the county/national level, reviewing server logs and issues reported 
+           <br/> by different facilities and offering user support/ training on use of digital systems. </td>
+      <td> N/A </td>
+      <td> N/A </td>
     </tr>
     <tr>
-      <td>caregiver</td>
-      <td> -- </td>
-      <td> -- </td>
-      <td> ---</td>
+      <td>MOH Director General</td>
+      <td> Responsible for developing annual and multi-annual plans; immunization communication and mobilization;
+        <br/> management of logistics, the cold chain, and vaccines;
+        <br/> monitoring, supervision, and evaluation of immunization services; 
+        <br/> and coordination of immunization activities at the national level.
+ </td>
+      <td> N/A </td>
+      <td> N/A </td>
     </tr>
   </tbody>
 </table>
