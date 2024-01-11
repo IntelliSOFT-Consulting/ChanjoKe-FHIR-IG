@@ -241,7 +241,7 @@ The workflows that follow depict processes that have been generalized across dif
 <b>Figure:  Query Client Record </b>
 
   <div> 
-    <img src="client-query.png" alt="Query client record Flow" style="width:85%"/>
+    <img src="Query client record.PNG" alt="Query client record Flow" style="width:85%"/>
   </div>
 <br/>
 
