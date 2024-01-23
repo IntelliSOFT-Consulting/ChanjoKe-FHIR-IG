@@ -1,9 +1,9 @@
 
-Logical:      DDIMMZCCoreDataSet
+Logical:      DDIMMZCCoreDataSetVS
 Title:        "IMMZ.H Vaccination Status"
 Description:  "Data elements for the IMMZ.H Vaccination Status Data Dictionary."
 * ^extension[http://hl7.org/fhir/tools/StructureDefinition/logical-target].valueBoolean = true
-* ^name = "DDIMMZCCoreDataSet"
+* ^name = "DDIMMZVSCoreDataSet"
 * ^status = #active
 
 * certificate	 0..* SU Base "This is an abstract type. Child types:"
