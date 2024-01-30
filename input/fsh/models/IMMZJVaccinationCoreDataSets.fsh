@@ -7,7 +7,7 @@ Description:  "Data elements for the IMMZ.J Vaccination Certificate Core DataSet
 * ^status = #active
 
 
-* name 1..1 SU string "Name"
+* name 1..1 SU string "Client Name"
 * birthDate 0..1 SU date "Date of birth"
 * identifier 0..1 SU identifier "Unique identifier"
 * certificate 0..1 BackboneElement "Certificate Metadata"  
