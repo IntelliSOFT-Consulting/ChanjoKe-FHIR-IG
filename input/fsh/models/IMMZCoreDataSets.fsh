@@ -21,6 +21,15 @@ Description:  "Data elements for the IMMZ.J Vaccination Certificate CoreDataSet 
     * start 0..1 dateTime "Certificate valid from"
     * end 0..1 dateTime "Certificate valid until"
 
+Mapping:        VaccinationCertificateCoreDataSetToComposition
+Source:         VaccinationCertificateCoreDataSet
+Target:         "http://example.org/ddcc/StructureDefinition/IMMZComposition"
+Id:             immz-composition
+Title:          "WHO Digital Documentation of COVID Certificates"
+
+* certificate.issuer -> "Composition.author.identifier"
+* certificate.period -> "Composition.event.period"    
+
 
 Logical:        VaccinationCertificate_VS
 Title:          "IMMZ.H Vaccination Status"
