@@ -2,10 +2,31 @@ Alias: $cvx = http://hl7.org/fhir/sid/cvx
 Alias: $vaccines = http://health.gov.tz/CodeSystems/VaccineCodes
 Alias: $mms = http://id.who.int/icd11/mms
 Alias: $v2-0443 = http://terminology.hl7.org/CodeSystem/v2-0443
+Alias: $kenya-healthworker-extension = http://example.org/StructureDefinition/kenya-health-worker-extension
+Alias: $body-weight-extension = http://example.org/StructureDefinition/body-weight-extension
+Alias: $contraindication-to-vaccine =  http://example.org/StructureDefinition/contraindication-to-vaccine
+Alias: $vaccine-brand =  http://example.org/StructureDefinition/vaccine-brand
+Alias: $certificate-Issued =  http://example.org/StructureDefinition/certificate-Issued
+Alias: $certificate-Issue-Date =  http://example.org/StructureDefinition/certificate-Issue-Date
+Alias: $validity-startdate-certificate =  http://example.org/StructureDefinition/validity-startdate-certificate
+Alias: $validity-endDate-certificate =  http://example.org/StructureDefinition/validity-endDate-certificate
+
+
+
 
 Profile: KenyanImmunization
 Parent: Immunization
 Description: "Kenyan Registry Profile for Immunization."
+* extension contains 
+    $kenya-healthworker-extension named healthWorker 0..1 and
+    $body-weight-extension named bodyWeight 0..1 and 
+    $contraindication-to-vaccine named contraindicationToVaccine 0..1 and 
+    $vaccine-brand named vaccineBrand 0..1 and 
+    $certificate-Issued named certificateIssued 0..1 and 
+    $certificate-Issue-Date named CertificateIssueDate 0..1 and
+    $validity-startdate-certificate named certificateValidFrom  0..1 and 
+    $validity-endDate-certificate named CertificateValidUntil 0..1
+
 * identifier 0..0
 * location MS
 * location ^short = "Vaccination venue" 
@@ -30,6 +51,7 @@ Description: "Kenyan Registry Profile for Immunization."
 * performer.actor.display ^short = "Vaccinator Name"
 * performer.actor.reference 1..1
 * performer.actor.reference ^short = "Vaccinator ID"
+* occurrence[x] only dateTime
 
 
 
