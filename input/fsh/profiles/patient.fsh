@@ -1,5 +1,5 @@
 Alias: $kenya-counties-extension = http://example.org/StructureDefinition/kenya-counties-extension
-Alias: $kenya-healthworker-extension = http://example.org/StructureDefinition/kenya-healthworker-extension
+Alias: $kenya-healthworker-extension = http://example.org/StructureDefinition/kenya-health-worker-extension
 
 Profile: KenyanImmunizationRegistryPatient
 Parent: Patient

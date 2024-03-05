@@ -21,8 +21,6 @@ Description:  "Data elements for the IMMZ.C Administer Vaccine Data Dictionary."
   * ^code[+] = IMMZ.C#DE6
 * facilityId 1..1 SU string "Facility ID"
   * ^code[+] = IMMZ.C#DE7
-* queryClientRecord 1..1 SU string "Query client record"
-  * ^code[+] = IMMZ.C#DE8
 * currentVaccineSchedule 1..1 SU string "Display client’s current vaccine schedule"
   * ^code[+] = IMMZ.C#DE9
 * bodyWeight 1..1 SU string "Body weight"
