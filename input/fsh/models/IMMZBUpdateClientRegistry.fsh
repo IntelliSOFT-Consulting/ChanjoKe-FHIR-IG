@@ -14,7 +14,7 @@ Description:  "Data elements for the IMMZ.B Update Client History Data Dictionar
 * birthWeight 1..1 SU decimal "Client Birthweight (Kgs)"
 * placeOFVaccination 1..1 SU code "Client's Place of Vaccination"
 * placeOFVaccination from placeOfVaccination 
-* dateofLastDosa 1..1 SU date "Date of last dose"
+* dateofLastDose 1..1 SU date "Date of last dose"
 * numberOfWeeksSinceLastDose 1..1 SU integer "Number of weeks since last dose" "The number of weeks since the last vaccine product dose that was administered to the client (per product/antigen)."
 * numberOfMonthsSinceLastDose 1..1 SU integer "Number of Months since last dose" "The number of months since the last vaccine product dose that was administered to the client (per product/antigen)."
 * numberOfYearsSinceLastDose 1..1 SU integer "Number of Years since last dose" "The number of years since the last vaccine product dose that was administered to the client (per product/antigen)."

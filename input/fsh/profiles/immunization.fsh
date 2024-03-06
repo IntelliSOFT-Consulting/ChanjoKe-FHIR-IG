@@ -10,9 +10,7 @@ Alias: $certificate-Issued =  http://example.org/StructureDefinition/certificate
 Alias: $certificate-Issue-Date =  http://example.org/StructureDefinition/certificate-Issue-Date
 Alias: $validity-startdate-certificate =  http://example.org/StructureDefinition/validity-startdate-certificate
 Alias: $validity-endDate-certificate =  http://example.org/StructureDefinition/validity-endDate-certificate
-
-
-
+Alias: $kenya-example =  http://example.org/StructureDefinition/kenya-example
 
 Profile: KenyanImmunization
 Parent: Immunization
@@ -25,7 +23,8 @@ Description: "Kenyan Registry Profile for Immunization."
     $certificate-Issued named certificateIssued 0..1 and 
     $certificate-Issue-Date named CertificateIssueDate 0..1 and
     $validity-startdate-certificate named certificateValidFrom  0..1 and 
-    $validity-endDate-certificate named CertificateValidUntil 0..1
+    $validity-endDate-certificate named CertificateValidUntil 0..1 and 
+    $kenya-example  named kenyaExample 0..1
 
 * identifier 0..0
 * location MS
@@ -52,6 +51,9 @@ Description: "Kenyan Registry Profile for Immunization."
 * performer.actor.reference 1..1
 * performer.actor.reference ^short = "Vaccinator ID"
 * occurrence[x] only dateTime
+
+
+
 
 
 

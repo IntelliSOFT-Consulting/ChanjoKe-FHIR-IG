@@ -75,3 +75,13 @@ Context: Immunization
 // url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
 * value[x] only dateTime
 
+
+Extension: example
+Id:   kenya-example
+Title:  "kenya-example"
+Description: "kenya-example."
+Context: Patient
+// url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
+* value[x] only Reference(DocumentReference)
+
+
