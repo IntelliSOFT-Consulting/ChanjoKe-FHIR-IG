@@ -17,3 +17,18 @@ Description:  "Administrative Gender"
 
 * IMMZ.A#DE6 
 * IMMZ.A#DE7
+
+
+ValueSet: kenyaServiceRequestsVS
+Title:        "Service Requests"
+Description:  "Service Requests to be used in Kenyan Context"
+* ^experimental = false
+* ^name = "KHTSSVSRQTS"
+
+* ServiceRequests#108252007 
+* ServiceRequests#363679005 
+* ServiceRequests#409063005 
+* ServiceRequests#409073007
+* ServiceRequests#387713003
+* ServiceRequests#KNHTS-001 
+
