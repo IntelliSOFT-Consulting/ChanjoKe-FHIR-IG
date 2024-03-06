@@ -8,3 +8,12 @@ Description:  "Counties in Kenya"
 * KHTS.A#C-002 
 * KHTS.A#C-003 
 * KHTS.A#C-004 
+
+ValueSet: kenyaAdministrativeGenderVS
+Title:        "Administrative Gender"
+Description:  "Administrative Gender"
+* ^experimental = false
+* ^name = "KHTSADMNGENDER"
+
+* IMMZ.A#DE6 
+* IMMZ.A#DE7
