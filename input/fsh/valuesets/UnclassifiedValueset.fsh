@@ -32,3 +32,12 @@ Description:  "Service Requests to be used in Kenyan Context"
 * ServiceRequests#387713003
 * ServiceRequests#KNHTS-001 
 
+ValueSet: DDCQRFormatCodesVS
+Title:        "Digital Certificate Formats"
+Description:  "ValueSets for Digital Certificate Formats"
+* ^experimental = false
+* ^name = "DDCQRFMTCodesVS"
+
+* DDCQRFormatCodes#image
+* DDCQRFormatCodes#serialized
+* DDCQRFormatCodes#pdf

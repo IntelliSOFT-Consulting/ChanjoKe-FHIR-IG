@@ -26,3 +26,15 @@ Description:  "Service Reequests to be used within the Kenyan Contexts"
 * #387713003 "Surgical procedure"
 * #KNHTS-001 "Defaulter Tracing"
 
+CodeSystem:   DDCQRFormatCodes
+Title:        "DDCC QR Format Codes"
+Description:  "Format of the representation of QR code"
+
+* ^experimental = false
+* ^caseSensitive = false
+* ^name = "DDCQRFRMCDS"
+
+* #image "http://smart.who.int/ddcc/CodeSystem/DDCC-QR-Format-CodeSystem" "image"
+* #serialized "http://smart.who.int/ddcc/CodeSystem/DDCC-QR-Format-CodeSystem" "serialized"
+* #pdf "http://smart.who.int/ddcc/CodeSystem/DDCC-QR-Format-CodeSystem" "pdf"
+
