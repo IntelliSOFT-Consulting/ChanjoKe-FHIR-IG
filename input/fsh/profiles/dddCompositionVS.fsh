@@ -16,5 +16,5 @@ Description: "Digital Certificate for Vaccination Status Composition"
 * section[vaccination] ^definition = "Vaccination Status Section lists the relvant vaccinations received by the patient"
 * section[vaccination].code = $LOINC#11369-6
 * section[vaccination].focus 1..1 MS
-// * section[vaccination].focus only Reference(DDCCImmunization)
-// * section[vaccination].entry only Reference(DDCCImmunization or DDCCDocumentReferenceQR or DDCCImmunizationRecommendation)
+* section[vaccination].focus only Reference(KenyanImmunization)
+* section[vaccination].entry only Reference(KenyanImmunization or DigitalCertificateDocumentReferenceQR)
