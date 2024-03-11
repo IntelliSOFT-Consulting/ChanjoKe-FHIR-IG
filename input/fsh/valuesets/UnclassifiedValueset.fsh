@@ -41,3 +41,17 @@ Description:  "ValueSets for Digital Certificate Formats"
 * DDCQRFormatCodes#image
 * DDCQRFormatCodes#serialized
 * DDCQRFormatCodes#pdf
+
+ValueSet: PatientIdentifierTypeVS
+Title:        "Patient Identifier type"
+Description:  "This is a set of valuesets that have been defined for the KenyanPatient Registry"
+* ^experimental = false
+* ^name = "PTDIDTYPS"
+
+* IdentifierTypes#birthcertificate
+* IdentifierTypes#nationalId 
+* IdentifierTypes#passport
+* IdentifierTypes#nemis 
+* IdentifierTypes#bNo 
+
+

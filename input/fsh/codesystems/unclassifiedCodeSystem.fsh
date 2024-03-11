@@ -38,3 +38,20 @@ Description:  "Format of the representation of QR code"
 * #serialized "http://smart.who.int/ddcc/CodeSystem/DDCC-QR-Format-CodeSystem" "serialized"
 * #pdf "http://smart.who.int/ddcc/CodeSystem/DDCC-QR-Format-CodeSystem" "pdf"
 
+CodeSystem:   IdentifierTypes
+Title:        "Identifier Types"
+Description:  "Defined Identifier Types for KenyanRegistryPatient"
+
+* ^experimental = false
+* ^caseSensitive = false
+* ^name = "IDENTIFIERTYPES"
+
+* #birthcertificate "Birth Certificate"
+* #nationalId "National ID"
+* #passport "Passport"
+* #nemis "NEMIS No"
+* #bNo "Birth Notification Number"
+
+
+
+

@@ -13,6 +13,9 @@ Description: "Kenyan Registry Profile for Patient."
     $kenya-counties-extension named village 1..1 and 
     $kenya-counties-extension named healthWorker 1..1
 * identifier 1..1 MS
+* identifier.type.coding.code from PatientIdentifierTypeVS 
+* identifier.system = #identification
+* identifier.value 1..1 MS
 * name 1..1 MS
 * gender 1..1 MS
 * birthDate 0..0
