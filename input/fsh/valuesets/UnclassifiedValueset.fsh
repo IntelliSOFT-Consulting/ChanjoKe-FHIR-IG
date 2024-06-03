@@ -54,4 +54,13 @@ Description:  "This is a set of valuesets that have been defined for the KenyanP
 * IdentifierTypes#nemis 
 * IdentifierTypes#bNo 
 
+ValueSet: PatientContactListVS
+Title:        "Patient Contact List"
+Description:  "Paytient Contact List"
+* ^experimental = false
+* ^name = "PATCONTACTSLSTS"
+
+* PATIENTCONTACTS#DE1
+* PATIENTCONTACTS#DE2
+* PATIENTCONTACTS#DE3
 
