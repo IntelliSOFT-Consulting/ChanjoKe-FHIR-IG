@@ -53,5 +53,19 @@ Description:  "Defined Identifier Types for KenyanRegistryPatient"
 * #bNo "Birth Notification Number"
 
 
+CodeSystem:   PatientContactList
+Title:        "Patient's Contact List"
+Description:  "Patient's family members, friends or others that can be contacted by healthcare providers onbahalf of the patient"
+
+* ^experimental = false
+* ^caseSensitive = false
+* ^name = "PATIENTCONTACTS"
+
+* #DE1 "Father"
+* #DE2 "Mother"
+* #DE3 "Guardian"
+
+
+
 
 

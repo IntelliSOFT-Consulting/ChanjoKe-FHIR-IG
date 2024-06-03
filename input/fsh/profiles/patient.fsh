@@ -16,18 +16,16 @@ Description: "Kenyan Registry Profile for Patient."
 * identifier.type.coding.code from PatientIdentifierTypeVS 
 * identifier.system = #identification
 * identifier.value 1..1 MS
-* name 1..1 MS
+* name.given 1..1 MS
+* name.family 1..1 MS
 * gender 1..1 MS
 * birthDate 0..0
-* contact 1..1
-* contact.relationship 1..1
+* contact 0..* MS
+* contact.relationship from PatientContactListVS
 * contact.name 1..1
 * contact.telecom 1..1
 * address 0..1
-* generalPractitioner 0..* MS
-* generalPractitioner.reference 1..1 MS
-* generalPractitioner.display 1..1 MS
-* generalPractitioner.display ^short = "General Practitioner's name"
+
 
 
 Logical: IMMZCRegisterClient
