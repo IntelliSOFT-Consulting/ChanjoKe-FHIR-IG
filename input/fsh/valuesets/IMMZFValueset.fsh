@@ -44,3 +44,14 @@ Description:  "AEFI Outcome"
 * IMMZ.F#DE36
 * IMMZ.F#DE37
 * IMMZ.F#DE38
+
+
+ValueSet: aefiActionTakenVS
+Title:        "AEFI Action Taken"
+Description:  "AEFI Action Taken"
+* ^experimental = false
+* ^name = "AEFIACTIONTAKEN"
+
+* IMMZ.F#DE21
+* IMMZ.F#DE22
+* IMMZ.F#DE23
