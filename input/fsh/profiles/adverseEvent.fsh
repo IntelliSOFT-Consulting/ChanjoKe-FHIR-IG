@@ -46,16 +46,16 @@ Description: "An example instance of an adverse event profile."
 * identifier.value = "AE123456789"
 * actuality = #actual
 * date = "2024-05-12"
-* subjectMedicalHistory = Reference(Condition/example)
-* severity = #severe
-* outcome = #recovered
-* subject = Reference(KenyanImmunizationRegistryPatient/12345)
+* subjectMedicalHistory = Reference(http://example.org/StructureDefinition/Condition/123453)
+* severity = #DE27
+* outcome = #DE34
+* subject = Reference(http://example.org/StructureDefinition/KenyanImmunizationRegistryPatient/12345)
 * recordedDate = "2024-05-13"
-* suspectEntity.instance = Reference(SubstanceExample/67890)
-* extension[types-of-aefi].valueCode = #convulsion
+* suspectEntity.instance = Reference(http://example.org/StructureDefinition/Substance/67890)
+* extension[types-of-aefi].valueCode = #DE3
 
 * extension[event-details].valueString = "Patient developed a rash within 24 hours of vaccination."
-* extension[action-taken].valueCode = #TreatmentGiven
+* extension[action-taken].valueCode = #DE22
 * extension[facility-reported].valueString = "Central Hospital"
 * extension[treatment-given].valueString = "Anti-allergies"
 * extension[treatment-details].valueString = "Administered antihistamine."

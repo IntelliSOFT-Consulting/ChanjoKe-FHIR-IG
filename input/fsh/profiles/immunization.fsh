@@ -96,4 +96,4 @@ Usage: #example
 * expirationDate = "2023-11-01"
 * performer.function.coding[0] = $v2-0443#AP
 * performer.function.coding[+] = http://example.org/tz/actors#xxx
-* performer.actor = Reference(Practitioner/253373)
+* performer.actor = Reference(http://example.org/StructureDefinition/Practitioner/253373)
