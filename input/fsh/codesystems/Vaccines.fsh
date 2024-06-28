@@ -1,7 +1,7 @@
 CodeSystem: KenyaVaccineCodes
 Id: KenyaVaccineCodes
 Title: "Kenya Vaccine Codes"
-* ^url = "http://health.go.ke/fhir/CodeSystem/VaccineCodes"
+* ^url = "http://example.org/CodeSystem/KenyaVaccineCodes"
 * ^version = "0.1.0"
 * ^status = #draft
 * ^copyright = ""
@@ -29,7 +29,7 @@ Title: "Kenya Vaccine Codes"
 CodeSystem: KenyanImmunizationNotDoneReasonsCS
 Id: KenyanImmunizationNotDoneReasonsCS
 Title: "Reason Vaccine not Administered"
-* ^url = "http://health.gov.tz/CodeSystems/KenyanImmunizationNotDoneReasons"
+* ^url = "http://example.org/CodeSystem/KenyanImmunizationNotDoneReasonsCS"
 * ^version = "0.1.0"
 * ^status = #draft
 * ^copyright = "Public Domain of some kind"

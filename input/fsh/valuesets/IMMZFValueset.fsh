@@ -30,7 +30,7 @@ Description:  "Reaction Severity"
 * IMMZ.F#DE29
 * IMMZ.F#DE30
 * IMMZ.F#DE31
-* IMMZ.F#DE27
+
 
 
 ValueSet: aefiOutcomeVS

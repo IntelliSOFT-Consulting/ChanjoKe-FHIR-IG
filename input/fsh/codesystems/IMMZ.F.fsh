@@ -8,7 +8,7 @@ Description:  "CodeSystem for IMMZ.F Data Elements"
 
 * #DE1 "Type of AEFI" 
 * #DE2 "High fever" 
-* #DE3 "Convulsion" 
+* #DE3 "Convulsion" "Convulsion" 
 * #DE4 "Anaphylaxis" 
 * #DE5 "Paralysis" 
 * #DE6 "Toxic shock" 
