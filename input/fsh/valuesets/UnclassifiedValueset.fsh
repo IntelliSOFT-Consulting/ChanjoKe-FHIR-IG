@@ -64,3 +64,13 @@ Description:  "Paytient Contact List"
 * PATIENTCONTACTS#DE2
 * PATIENTCONTACTS#DE3
 
+
+ValueSet: StockAdjustmentVs
+Title:        "Stock Adjustment"
+Description:  "Stock Adjustment"
+* ^experimental = false
+* ^name = "STOCKADJUSTMENTS"
+
+* STOCKADJUSTMENTTYPE#positiveAdjustment
+* STOCKADJUSTMENTTYPE#negativeAdjustment
+

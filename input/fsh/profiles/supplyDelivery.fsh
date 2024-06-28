@@ -16,8 +16,9 @@ Alias: $reason-for-adjustment = http://example.org/StructureDefinition/reason-fo
 Alias: $stock-origin = http://example.org/StructureDefinition/stock-origin
 Alias: $previous-vvm = http://example.org/StructureDefinition/previous-vvm
 Alias: $new-vvm = http://example.org/StructureDefinition/new-vvm
-
-
+Alias: $physical-count  = http://example.org/StructureDefinition/physical-count 
+Alias: $stock-adjustment-date = http://example.org/StructureDefinition/stock-adjustment-date
+Alias: $adjustment-type = http://example.org/StructureDefinition/adjustment-type
 
 Profile: SupplyDeliveryProfile
 Parent: SupplyDelivery
@@ -40,7 +41,11 @@ Description: "Record of delivery of what is supplied."
     $reason-for-adjustment named reasonForAdjustment  0..1 MS and
     $stock-origin named  stockOrigin 0..1 MS and
     $previous-vvm named previousVVM  0..1 MS and
-    $new-vvm named newVVM  0..1 MS 
+    $new-vvm named newVVM  0..1 MS and 
+    $physical-count named physicalCount 0..1 MS and 
+    $stock-adjustment-date named stockAdjustmentDate 0..1 MS and 
+    $adjustment-type named adjustmentType  0..1 MS
+
     
 * identifier 1..1 MS
 * suppliedItem.itemReference 1..1 MS

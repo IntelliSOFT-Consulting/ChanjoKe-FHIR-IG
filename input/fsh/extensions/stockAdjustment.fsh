@@ -54,7 +54,7 @@ Title:  "Extension for VVM Status "
 Description: "AExtension for VVM Status"
 Context: SupplyDelivery
 // url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
-* value[x] only code
+* value[x] only string
 
 Extension: ReasonForAdjustment
 Id:  reason-for-adjustment
@@ -87,6 +87,32 @@ Description: "AExtension for New VVM"
 Context: SupplyDelivery
 // url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
 * value[x] only string
+
+Extension: PhysicalCount
+Id: physical-count 
+Title:  "Extension for Physical Count"
+Description: "AExtension for Physical Count"
+Context: SupplyDelivery
+// url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
+* value[x] only integer
+
+Extension: StockAdjustmentDate
+Id: stock-adjustment-date 
+Title:  "Extension for Stock Adjustment Date"
+Description: "AExtension for Stock Adjustment Date"
+Context: SupplyDelivery
+// url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
+* value[x] only date
+
+Extension: AdjustmentType
+Id: adjustment-type 
+Title:  "Extension for Stock Adjustment Type"
+Description: "AExtension for Stock Adjustment Type"
+Context: SupplyDelivery
+// url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
+* value[x] only code
+* value[x] from StockAdjustmentVs
+
 
 
 
