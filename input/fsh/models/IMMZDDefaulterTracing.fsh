@@ -7,7 +7,7 @@ Description:  "Data elements for the IMMZ.D Defaulter Tracing Data Dictionary."
 * ^status = #active
 
 * childCanBeLocated 1..1 SU code "Child can be located"
-* clientInformation 1..1 Reference "Patient" "Send client’s information to CHP"
+* clientInformation 1..1 BackboneElement "Patient" "Send client’s information to CHP"
   * name 1..1 BackboneElement "Name of the Client send to the CHP"
     * given 1..1 string "First name" "Client's first name or given name"
     * family 1..1 string "Last name" "Client's first name or family name"
