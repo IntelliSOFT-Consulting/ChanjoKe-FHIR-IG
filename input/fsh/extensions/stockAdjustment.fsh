@@ -111,7 +111,7 @@ Description: "AExtension for Stock Adjustment Type"
 Context: SupplyDelivery
 // url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
 * value[x] only code
-* value[x] from StockAdjustmentVs
+* valueCode from StockAdjustmentVs
 
 
 

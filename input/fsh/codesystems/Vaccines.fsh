@@ -14,16 +14,16 @@ Title: "Kenya Vaccine Codes"
 * #BCG ^property.valueCoding = $cvx#19
 * #OPV "OPV" "Oral Polio Vaccine"
 * #OPV ^property.code = #cvxp
-* #OPV ^property.valueCode = $cvx#2
+* #OPV ^property.valueCoding = $cvx#02
 * #PCV "PCV 10" "Pneumococcal Conjugate Vaccine"
 * #PCV ^property.code = #cvxp
-* #PCV ^property.valueCode = $cvx#177
+* #PCV ^property.valueCoding = $cvx#177
 * #Rota "Rota" "Rotavirus vaccine"
 * #Rota ^property.code = #cvxp
-* #Rota ^property.valueCode = $cvx#122
+* #Rota ^property.valueCoding = $cvx#122
 * #DTP-Hib-Hep-B "DTP-Hib-Hep B" "Diptheria, Pertussis, Haemophilus influenzae type b"
 * #DTP-Hib-Hep-B ^property.code = #cvxp
-* #DTP-Hib-Hep-B ^property.valueCode = $cvx#102
+* #DTP-Hib-Hep-B ^property.valueCoding = $cvx#102
 
 
 CodeSystem: KenyanImmunizationNotDoneReasonsCS

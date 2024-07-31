@@ -13,7 +13,7 @@ Profile: SupplyRequestProfile
 Parent: SupplyRequest
 Description: "A record of a request for a medication, substance or device used in the healthcare setting."
 * extension contains
-     $date-of-last-order named  $date-of-last-order 0..1 MS and
+     $date-of-last-order named  date-of-last-order 0..1 MS and
      $expected-date-of-next-order named expected-date-of-next-order  0..1 MS and
      $total-population named total-population  0..1 MS and
      $children named children   0..1 MS and

@@ -40,7 +40,7 @@ Description:  "Data elements for the IMMZ.A Register Client Data Dictionary."
     * ^code[+] = IMMZ.A#DE32
 * healthWorker 1..1 boolean "Active health worker" "Is the client an active and participating health worker. This data element is used mainly for reporting and indicators purposes."  
   * ^code[+] = IMMZ.A#DE21
-* generalPractitioner 1..1 Reference "Practitioner" "A person with a formal responsibility in the provisioning of healthcare or related services"
+* generalPractitioner 1..1 BackboneElement "Practitioner" "A person with a formal responsibility in the provisioning of healthcare or related services"
   * name 1..1 string "CHP's name"
     * ^code[+] = IMMZ.A#DE31
   * telecom 1..1 string "CHP's mobile phone"  

@@ -1,5 +1,6 @@
 
 Logical:      VaccinationCertificateCoreDataSet
+Id: vaccination-certificate-core-data-set
 Title:        "IMMZ.J Vaccination Core DataSets"
 Description:  "Data elements for the IMMZ.J Vaccination Certificate CoreDataSet Data Dictionary."
 * ^extension[http://hl7.org/fhir/tools/StructureDefinition/logical-target].valueBoolean = true
@@ -32,6 +33,7 @@ Title:          "WHO Digital Documentation of COVID Certificates"
 
 
 Logical:        VaccinationCertificate_VS
+Id: vaccination-certificate-vs  
 Title:          "IMMZ.H Vaccination Status"
 Parent:         VaccinationCertificateCoreDataSet
 Description:    "Data elements for the IMMZ.H Vaccination Status Data Dictionary."
@@ -39,7 +41,7 @@ Description:    "Data elements for the IMMZ.H Vaccination Status Data Dictionary
 * ^name = "VaccinationCertificate_VS"
 * ^status = #active
 * ^abstract = true
-* ^type = "VaccinationCertificateCoreDataSet"
+* ^type = "http://example.org/fhir/StructureDefinition/vaccination-certificate-core-data-set"
 
 * vaccination 1..1 BackboneElement "Vaccination Event"
   * ^code[+] = IMMZ.H#DE4 
@@ -77,6 +79,7 @@ Description:    "Data elements for the IMMZ.H Vaccination Status Data Dictionary
 
 
 Logical:      VaccinationCertificate_CoC
+Id:          vaccination-certificate-coc
 Title:        "IMMZ.G Vaccination Status- Continuity of Care"
 Parent:       VaccinationCertificate_VS
 Description:  "Data elements for the IMMZ.G Vaccination Status - Continuity of Care Data Dictionary."
@@ -84,14 +87,15 @@ Description:  "Data elements for the IMMZ.G Vaccination Status - Continuity of C
 * ^name = "VaccinationCertificate_CoC"
 * ^status = #active
 * ^abstract = true
-* ^type = "VaccinationCertificate_VS"
+* ^type = "http://example.org/fhir/StructureDefinition/vaccination-certificate-vs"
 
-* vaccination 0..1 BackboneElement "Vaccination" 
-  * centre 1..1 string "Centre" "Administering centre"
+// * vaccination 0..1 BackboneElement "Vaccination" 
+//   * centre 1..1 string "Centre" "Administering centre"
 * sex 0..1 code "Sex" "Administrative gender"
 
 
 Logical:      VaccinationCertificate_PoV
+Id:         vaccination-certificate-pov
 Title:        "IMMZ.K Vaccination Status- Proof of Vaccination"
 Parent:       VaccinationCertificate_VS
 Description:  "Data elements for the IMMZ.K Vaccination Status - Proof of Vaccination Dictionary."
@@ -99,5 +103,5 @@ Description:  "Data elements for the IMMZ.K Vaccination Status - Proof of Vaccin
 * ^name = "VaccinationCertificate_PoV"
 * ^status = #active
 * ^abstract = true
-* ^type = "VaccinationCertificate_VS"
+* ^type = "http://example.org/fhir/StructureDefinition/vaccination-certificate-vs"
 

@@ -24,7 +24,7 @@ Profile: SupplyDeliveryProfile
 Parent: SupplyDelivery
 Description: "Record of delivery of what is supplied."
 * extension contains
-    $date-received named date-received 0..1 MS and
+    $date-received named dateReceived 0..1 MS and
     $origin named origin  0..1 MS and 
     $order-number named orderNumber  0..1 MS and
     $vaccine named vaccine  0..1 MS and 
@@ -43,14 +43,13 @@ Description: "Record of delivery of what is supplied."
     $previous-vvm named previousVVM  0..1 MS and
     $new-vvm named newVVM  0..1 MS and 
     $physical-count named physicalCount 0..1 MS and 
-    $stock-adjustment-date named stockAdjustmentDate 0..1 MS and 
-    $adjustment-type named adjustmentType  0..1 MS
+    $stock-adjustment-date named stockAdjustmentDate 0..1 MS
 
     
 * identifier 1..1 MS
+* suppliedItem.item[x] only Reference
 * suppliedItem.itemReference 1..1 MS
 * suppliedItem.itemReference only Reference(Medication) 
 * suppliedItem.quantity 1..1 MS
 * type 1..1 MS
 * type ^short = "VVM Status"
-
