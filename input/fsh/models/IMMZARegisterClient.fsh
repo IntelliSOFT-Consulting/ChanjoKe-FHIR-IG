@@ -46,4 +46,31 @@ Description:  "Data elements for the IMMZ.A Register Client Data Dictionary."
   * telecom 1..1 string "CHP's mobile phone"  
     * ^code[+] = IMMZ.A#DE30 
 
- 
+Instance: IMMZARegisterClientExample
+InstanceOf: IMMZARegisterClient
+Usage: #example
+Title: "IMMZARegisterClientExample"
+Description: "An example of a IMMZA Register Client"
+* identifier = "123456"
+* name.given = "John"
+* name.family = "Doe"
+* sex = #male
+* birthDate = "1990-01-01"
+
+* contact.relationship.coding.system = "http://snomed.info/sct"
+* contact.relationship.coding.code = #72705000
+* contact.relationship.coding.display = "Mother (person)"
+* contact.relationship.text = "Mother"
+
+* contact.name = "Jane Doe"
+* contact.telecom = "555-1234"
+* contact.email = "jane.doe@example.com"
+* address.county.text = "Example County"
+* address.subcounty.text = "Example Subcounty"
+* address.constituency.text = "Example Constituency"
+* address.ward.text = "Example Ward"
+* address.town.text = "Example Town"
+* address.village.text = "Example Village"
+* healthWorker = true
+* generalPractitioner.name = "Dr. Smith"
+* generalPractitioner.telecom = "555-5678"
