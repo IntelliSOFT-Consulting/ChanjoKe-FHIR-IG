@@ -22,3 +22,27 @@ Description: "Describes the logical structure for a Digital Documentation for a 
 * event.period 
 * event.period.start 0..1 MS
 * event.period.end 0..1 MS
+
+
+Instance: DigitalCertificateCompositionExample
+InstanceOf: DigitalCertificateComposition
+Usage: #example
+Title: "DigitalCertificateCompositionExample"
+Description: "Example of a Digital Certificate Composition"
+* identifier.use = #usual
+* identifier.system = "http://example.org/identifiers"
+* identifier.value = "DC123456789"
+* status = #final
+* subject = Reference(DigitalCertificatePatientExample)
+* type.coding.system = "http://loinc.org"
+* type.coding.code = #11485-0
+* type.coding.display = "Anesthesia records"
+* type.text = "Anesthesia records"
+* attester.mode = #legal
+* attester.time = "2020-02-02"
+* attester.party = Reference(DigitalCertificateOrganizationExample)
+* event.period.start = "2020-02-02"
+* event.period.end = "2020-02-03"
+* author = Reference(DigitalCertificateOrganizationExample)
+* title = "Anesthesia records"
+* date = "2020-02-02"
