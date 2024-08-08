@@ -18,3 +18,23 @@ Description: "Digital Certificate for Vaccination Status Composition"
 * section[vaccination].focus 1..1 MS
 * section[vaccination].focus only Reference(KenyanImmunization)
 * section[vaccination].entry only Reference(KenyanImmunization or DigitalCertificateDocumentReferenceQR)
+
+Instance: DigitalCertificateCompositionVaccinationStatusExample
+InstanceOf: DigitalCertificateCompositionVaccinationStatus
+Usage: #example
+Title: "DigitalCertificateCompositionVaccinationStatusExample"
+Description: "An example of a digital certificate for vaccination status composition"
+
+* status = #final
+
+* type.coding.system = "http://loinc.org"
+* type.coding.code = #11485-0
+* type.coding.display = "Anesthesia records"
+* type.text = "Anesthesia records"
+
+* date = "2020-02-02"
+* title = "Anesthesia records"
+
+* author = Reference(PractitionerExample)
+* section[vaccination].focus = Reference(KenyanImmunizationExample)
+* section[vaccination].entry = Reference(KenyanImmunizationExample)

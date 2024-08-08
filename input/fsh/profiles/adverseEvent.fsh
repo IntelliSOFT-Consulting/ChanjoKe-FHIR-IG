@@ -48,6 +48,7 @@ Description: "Profile for Adverse Event"
 
 Instance: ExampleAdverseEvent
 InstanceOf: AdverseEventProfile
+Usage: #example
 Title: "Example Adverse Event"
 Description: "An example instance of an adverse event profile."
 * identifier.system = "http://example.org/identifiers"
@@ -81,6 +82,7 @@ Description: "An example instance of an adverse event profile."
 
 Instance: SubstanceExample
 InstanceOf: Substance
+Usage: #example
 Title: "SubstanceExample"
 Description: "Example Substance"
 * code.coding.system = "http://snomed.info/sct"

@@ -47,7 +47,37 @@ Description:  "Data elements for the IMMZ.B Update Client History Data Dictionar
 * typeOfLastDPTHepBHibdose from typeOfLastDPTHepBHibDoseVS
 
 
+Instance: IMMZBUpdateClientHistoryExample
+InstanceOf: IMMZBUpdateClientHistory
+Usage: #example
+Title: "IMMZBUpdateClientHistoryExample"
+Description: "Example instance for IMMZBUpdateClientHistory"
 
-
-
-
+* hivStatus = #DE2
+* clientCurrentlyReceivingHAART = true
+* maternalHIVStatus = #DE3
+* birthWeight = 3.5
+* placeOFVaccination = #DE14
+* dateofLastDosa = "2023-07-01"
+* numberOfWeeksSinceLastDose = 4
+* numberOfMonthsSinceLastDose = 1
+* numberOfYearsSinceLastDose = 0
+* scheduledAppointmentDate = "2023-08-01"
+* vaccinatorName = "Dr. Jane Doe"
+* vaccinatorID = "V123456"
+* clientAgeWhenTheyReceivedTheLastDose = 2.5
+* hasClientcompletedVaccinePrimarySeries = false
+* typeOfLastPolioDose = #DE28
+* maternalTSTTestResult = #DE31
+* exposedToCloseContactWithTB = true
+* clientsTSTTestResult = #DE32
+* clientCD4percentage = 25.5
+* typeOfLastRotavirusDose = #DE46
+* previousRotavirusDosesAdmnisteredWithAnUnknownProduct = false
+* typeOfLastMeaslesRubellaDose = #DE50
+* dateStartedHAART = "2022-01-15"
+* numberOfMonthsSinceHAARTwasInitiated = 18
+* typeOfLastHPVdose = #DE55
+* numberOfMonthsBetweenFirstAndSecondHPVDoses = 6
+* typeOfLastPCV10Dose = #DE59
+* typeOfLastDPTHepBHibdose = #DE63

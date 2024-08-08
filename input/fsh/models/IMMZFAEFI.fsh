@@ -34,3 +34,25 @@ Description:  "Data elements for the IMMZ.F AEFI Data Dictionary."
   * ^code[+] = IMMZ.F#DE43
 * facilityReported 1..1 SU string "Facility Reported"
   * ^code[+] = IMMZ.F#DE44
+
+
+Instance: IMMZFaefiExample
+InstanceOf: IMMZFaefi
+Usage: #example
+Title: "IMMZ.F AEFI Example"
+Description: "An example instance of the IMMZ.F AEFI Data Dictionary."
+
+* typeOfAEFI = IMMZ.F#DE1
+* briefDetailsOnTheEvent = "Patient experienced severe rash and high fever post-vaccination."
+* onsetOfEvent = "Within 24 hours after vaccination"
+* date = 2024-07-30
+* time = "14:30"
+* pastMedicalHistory = "No known allergies or prior adverse reactions to vaccines."
+* actionTaken = IMMZ.F#DE21
+* reactionSeverity = IMMZ.F#DE26
+* aefiOutcome = IMMZ.F#DE33
+* nameOFPersonReporting = "John Doe"
+* phoneNumber = "123-456-7890"
+* hcwHandlingAEFI = "Dr. Jane Smith"
+* dateReported = "2024-07-31"
+* facilityReported = "XYZ Health Facility"

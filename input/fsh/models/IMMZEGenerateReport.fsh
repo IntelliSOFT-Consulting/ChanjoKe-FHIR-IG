@@ -42,3 +42,28 @@ Description:  "Data elements for the IMMZ.E Report Generation Data Dictionary."
   * ^code[+] = IMMZ.E#DE43
 * disaggregatedScore 1..1 SU code "Disaggregated Score" "The computed score for this disaggregation, which is the numerator divided by the denominator for this collection (i.e. population) of records."
   * ^code[+] = IMMZ.E#DE44
+
+  Instance: IMMZEGenerateReportExample
+InstanceOf: IMMZEGenerateReport
+Usage: #example
+Title: "IMMZ.E Generate Report Example"
+Description: "An example instance of the IMMZ.E Generate Report Profile."
+
+* reportIdentification = IMMZ.E#DE1
+* reportStatus = IMMZ.E#DE2
+* reportType = IMMZ.E#DE3
+* reportIndicatorCode = IMMZ.E#DE11
+* reportSubjectArea = IMMZ.E#DE18
+* reportGenerationDate = 2024-08-01
+* reportingPeriodStart = 2024-01-01
+* reportingPeriodEnd = 2024-06-30
+* improvementIndicator = IMMZ.E#DE22
+* reportGeneratorOrAuthor = IMMZ.E#DE25
+* measureIdentifierMeaning = IMMZ.E#DE26
+* measureNumerator = IMMZ.E#DE30
+* measureDenominator = IMMZ.E#DE31
+* disaggregationGroup = IMMZ.E#DE32
+* disaggregationMeasureIdentifierMeaning = IMMZ.E#DE41
+* disaggregationNumerator = IMMZ.E#DE42
+* disaggregationDenominator = IMMZ.E#DE43
+* disaggregatedScore = IMMZ.E#DE44

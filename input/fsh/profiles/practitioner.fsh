@@ -24,3 +24,18 @@ Description: "Profile for a Kenyan Practitioner"
 * birthDate MS
 * extension[kenya-administrative-gender-extension].valueCode from kenyaAdministrativeGenderVS
 * extension[kenya-administrative-gender-extension] ^short = "male | female |"
+
+Instance: KenyanPractitionerExample
+InstanceOf: KenyanPractitioner
+Usage: #example
+Title: "KenyanPractitionerExample"
+Description: "An example of a Kenyan Practitioner"
+* identifier.system = "http://example.org/kenya/practitioner"
+* identifier.use = #official
+* identifier.value = "123456"
+* name.given = "John"
+* name.family = "Doe"
+* telecom.system = #phone
+* telecom.value = "0722000000"
+* birthDate = "1980-01-01"
+* extension[kenya-administrative-gender-extension].valueCode = IMMZ.A#DE6 

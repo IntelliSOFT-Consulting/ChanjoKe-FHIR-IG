@@ -53,3 +53,60 @@ Description: "Record of delivery of what is supplied."
 * suppliedItem.quantity 1..1 MS
 * type 1..1 MS
 * type ^short = "VVM Status"
+
+
+Instance: MedicationExample
+InstanceOf: Medication
+Usage: #example
+Title: "MedicationExample"
+Description: "An example of a Medication"
+
+* code.coding.system = "http://snomed.info/sct"
+* code.coding.code = #261000
+* code.coding.display = "Codeine phosphate"
+* code.text = "Codeine phosphate"
+
+
+Instance: SupplyDeliveryProfileExample
+InstanceOf: SupplyDeliveryProfile
+Usage: #example
+Title: "SupplyDeliveryProfileExample"
+Description: "An example of a Supply Delivery Profile"
+* identifier.system = "http://example.org/supply-delivery"
+* identifier.use = #official
+* identifier.value = "123456"
+
+* suppliedItem.itemReference = Reference(MedicationExample)
+* suppliedItem.quantity.value = 10.0
+// * suppliedItem.quantity.currency = #KES
+
+* type.coding.system = "http://terminology.hl7.org/CodeSystem/supply-item-type"
+* type.coding.code = #medication
+* type.coding.display = "Medication"
+* type.text = "Medication"
+
+// * quantity.value = 10
+// * quantity.unit = "tablets"
+// * quantity.system = "http://unitsofmeasure.org"
+// * quantity.code = #tablets
+
+* extension[dateReceived].valueDate = "2020-02-02"
+* extension[origin].valueString = "Nairobi"
+* extension[orderNumber].valueInteger = 123456
+* extension[vaccine].valueCode = #11485-0
+* extension[expiryDate].valueDate = "2020-02-02"
+* extension[stockQuantity].valueInteger = 100
+* extension[manufacturerDetails].valueString = "Manufacturer details"
+* extension[allocatedQuantity].valueInteger = 50
+* extension[remainingQuantity].valueInteger = 50
+* extension[issueDate].valueDate = "2020-02-02"
+* extension[stockLocation].valueString = "Nairobi"
+* extension[batchNumber].valueString
+* extension[quantityIssued].valueInteger = 10
+* extension[vvmStatus].valueString = "done"
+* extension[reasonForAdjustment].valueString = "Reason for adjustment"
+* extension[stockOrigin].valueString = "Nairobi"
+* extension[previousVVM].valueString = "done"
+* extension[newVVM].valueString = "done"
+* extension[physicalCount].valueInteger = 50
+* extension[stockAdjustmentDate].valueDate = "2020-02-02"

@@ -20,3 +20,17 @@ Description: "A Digital Certificate Patient should"
 * gender ^label = "sex"
 * birthDate 0..1 MS
 * birthDate ^label = "Date of birth" 
+
+
+
+Instance: DigitalCertificatePatientExample
+InstanceOf: DigitalCertificatePatient
+Usage: #example
+Title: "DigitalCertificatePatientExample"
+Description: "An example of a digital certificate patient"
+* identifier.use = #usual
+* identifier.system = "http://example.org/identifiers"
+* identifier.value = "DCP123456789"
+* name[ddcName].text = "John Doe"
+* gender = #male
+* birthDate = "1990-01-01"

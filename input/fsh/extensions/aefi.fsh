@@ -7,6 +7,13 @@ Context: AdverseEvent
 * value[x] only code
 * value[x] from typeOfAEFIVS (required)
 
+Instance: TYPESOFAEFIExample
+InstanceOf: TYPESOFAEFI
+Usage: #inline
+Title: "TYPESOFAEFIExample"
+Description: "An example of TYPESOFAEFI"
+* valueCode = IMMZ.F#DE2
+
 
 Extension: EventDetails
 Id:  event-details
@@ -15,6 +22,14 @@ Description: "Brief details on the event"
 Context: AdverseEvent
 // url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
 * value[x] only string
+
+Instance: EventDetailsExample
+InstanceOf: Extension
+Usage: #inline
+Title: "EventDetailsExample"
+Description: "An example of EventDetails"
+* url = "http://example.org/fhir/StructureDefinition/event-details"
+* valueString = "Brief details of the adverse event."
 
 Extension: ActionTaken
 Id: action-taken
@@ -25,6 +40,14 @@ Context: AdverseEvent
 * value[x] only code
 * value[x] from aefiActionTakenVS (required)
 
+Instance: ActionTakenExample
+InstanceOf: Extension
+Usage: #inline
+Title: "ActionTakenExample"
+Description: "An example of ActionTaken"
+* url = "http://example.org/fhir/StructureDefinition/action-taken"
+* valueCode = IMMZ.F#DE21
+
 
 Extension: FacilityReportedAEFI
 Id: facility-reported
@@ -33,6 +56,14 @@ Description: "Facility Reported"
 Context: AdverseEvent
 // url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
 * value[x] only string
+
+Instance: FacilityReportedAEFIExample
+InstanceOf: Extension
+Usage: #inline
+Title: "FacilityReportedAEFIExample"
+Description: "An example of FacilityReportedAEFI"
+* url = "http://example.org/fhir/StructureDefinition/facility-reported"
+* valueString = "Example facility"
 
 
 Extension: TreatmentGivenToAEFI 
@@ -43,6 +74,14 @@ Context: AdverseEvent
 // url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
 * value[x] only string
 
+Instance: TreatmentGivenToAEFIExample
+InstanceOf: Extension
+Usage: #inline
+Title: "TreatmentGivenToAEFIExample"
+Description: "An example of TreatmentGivenToAEFI"
+* url = "http://example.org/fhir/StructureDefinition/treatment-given"
+* valueString = "Example treatment given"
+
 Extension: TreatmentDetailsForAEFI 
 Id: treatment-details 
 Title:  "Extension for Treatment Details"
@@ -50,6 +89,15 @@ Description: "Treatment Details"
 Context: AdverseEvent
 // url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
 * value[x] only string
+
+Instance: TreatmentDetailsForAEFIExample
+InstanceOf: Extension
+Usage: #inline
+Title: "TreatmentDetailsForAEFIExample"
+Description: "An example of TreatmentDetailsForAEFI"
+* url = "http://example.org/fhir/StructureDefinition/treatment-details"
+* valueString = "Details of the treatment given for the AEFI"
+
 
 Extension: SpecimenCollected 
 Id: specimen-collected 
@@ -59,6 +107,14 @@ Context: AdverseEvent
 // url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
 * value[x] only string
 
+Instance: SpecimenCollectedExample
+InstanceOf: Extension
+Usage: #inline
+Title: "SpecimenCollectedExample"
+Description: "An example of SpecimenCollected"
+* url = "http://example.org/fhir/StructureDefinition/specimen-collected"
+* valueString = "Example specimen collected"
+
 
 Extension: SpecimenDetails 
 Id: specimen-details 
@@ -67,6 +123,15 @@ Description: "Specimen Details"
 Context: AdverseEvent
 // url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
 * value[x] only string
+
+Instance: SpecimenDetailsExample
+InstanceOf: Extension
+Usage: #inline
+Title: "SpecimenDetailsExample"
+Description: "An example of SpecimenDetails"
+* url = "http://example.org/fhir/StructureDefinition/specimen-details"
+* valueString = "Details of the specimen collected"
+
 
 
 

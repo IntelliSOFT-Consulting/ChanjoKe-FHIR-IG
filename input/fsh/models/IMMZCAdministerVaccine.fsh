@@ -59,4 +59,38 @@ Description:  "Data elements for the IMMZ.C Administer Vaccine Data Dictionary."
   * ^code[+] = IMMZ.C#DE39
 * certificateValidUntil 1..1 date "Certificate valid until"
   * ^code[+] = IMMZ.C#DE40
-  
+
+
+Instance: IMMZCAdministerVaccineExample
+InstanceOf: IMMZCAdministerVaccine
+Usage: #example
+Title: "IMMZ.C Administer Vaccine Example"
+Description: "An example instance of the IMMZ.C Administer Vaccine Data Dictionary."
+
+* identifier = "12345"
+* vaccinationVenue = #IMMZ.C#DE1
+* facility = #IMMZ.C#DE2
+* outreachSession = #IMMZ.C#DE3
+* nameOfFacility = #IMMZ.C#DE4
+* facilityType = #IMMZ.C#DE5
+* facilityLocation = "123 Main St, Anytown, USA"
+* facilityId = "FAC-001"
+* currentVaccineSchedule = "Current vaccine schedule details"
+* bodyWeight = "70 kg"
+* contraindicationToVaccine = false
+* vaccineAdministered = true
+* reasonVaccineNotAdministered = #IMMZ.C#DE18
+* vaccineName = #IMMZ.C#DE27
+* vaccineBrand = #IMMZ.C#DE28
+* vaccineManufacturer = "Manufacturer A"
+* diseaseTargeted = #IMMZ.C#DE30
+* vaccineBatchNumber = "BATCH-001"
+* expirationDate = "2025-12-31"
+* doseQuantity = "0.5 ml"
+* siteAdministered = #IMMZ.C#DE34
+* vaccinatorName = "Dr. John Doe"
+* vaccinatorID = "VACC-001"
+* certificateIssued = true
+* dateIssued = "2024-07-30"
+* certificateValidFrom = "2024-07-30"
+* certificateValidUntil = "2025-07-30"

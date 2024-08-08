@@ -27,3 +27,24 @@ Description:  "Data elements for the IMMZ.D Defaulter Tracing Data Dictionary."
 * clientIsVaccinated 1..1 SU boolean "Client is vaccinated"
 
 
+Instance: IMMZDdefaulterTracingExample
+InstanceOf: IMMZDdefaulterTracing
+Usage: #example
+Title: "IMMZ.D Defaulter Tracing Example"
+Description: "An example instance of the IMMZ.D Defaulter Tracing Profile."
+
+* childCanBeLocated = IMMZ.D#DE2
+* clientInformation.name.given = "Jane"
+* clientInformation.name.family = "Doe"
+* clientInformation.age = 2
+* clientInformation.address.town.text = "Nairobi"
+* clientInformation.contact.relationship.coding[0].system = "http://hl7.org/fhir/v3/RoleCode"
+* clientInformation.contact.relationship.coding[0].code = #N
+* clientInformation.contact.relationship.coding[0].display = "Next of Kin"
+* clientInformation.contact.name = "Mary Doe"
+* clientInformation.contact.telecom = "+254711123456"
+* dueOroverdueVaccinations = KenyaVaccineCodes#BCG
+* clientGetsVaccinated = true
+* reasonForLateVaccination = "Client was sick"
+* reasonForMissedVaccination = "Client was traveling"
+* clientIsVaccinated = true

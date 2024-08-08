@@ -20,3 +20,58 @@ Description: "A patient's point-in-time set of recommendations (i.e. forecasting
 * recommendation.doseNumberString 1..1
 * recommendation.seriesDosesString 1..1
 
+
+Instance: KenyanImmunizationRecommendationExample
+InstanceOf: KenyanImmunizationRecommendation
+Usage: #example
+Title: "KenyanImmunizationRecommendationExample"
+Description: "An example of a Kenyan Immunization Recommendation"
+* identifier.use = #official
+* identifier.system = "http://example.org/kenyan-immunization-recommendation"
+* identifier.value = "1234567890"
+* patient = Reference(PatientExample)
+* date = "2020-02-02"
+* authority = Reference(OrganizationExample)
+
+* recommendation.vaccineCode.coding.system = "http://hl7.org/fhir/sid/cvx"
+* recommendation.vaccineCode.coding.code = #143
+* recommendation.vaccineCode.coding.display = "Adenovirus types 4 and 7"
+* recommendation.vaccineCode.text = "Adenovirus types 4 and 7"
+
+* recommendation.targetDisease.coding.system = "http://snomed.info/sct"
+* recommendation.targetDisease.coding.code = #1857005
+* recommendation.targetDisease.coding.display = "Gestational rubella syndrome"
+* recommendation.targetDisease.text = "Gestational rubella syndrome"
+
+* recommendation.contraindicatedVaccineCode.coding.system = "http://hl7.org/fhir/sid/cvx"
+* recommendation.contraindicatedVaccineCode.coding.code = #143
+* recommendation.contraindicatedVaccineCode.coding.display = "Adenovirus types 4 and 7"
+* recommendation.contraindicatedVaccineCode.text = "Adenovirus types 4 and 7"
+
+* recommendation.forecastStatus.coding.system = "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status"
+* recommendation.forecastStatus.coding.code = #due
+* recommendation.forecastStatus.coding.display = "Due"
+* recommendation.forecastStatus.text = "Due"
+
+* recommendation.forecastReason.coding.system = "http://snomed.info/sct"
+* recommendation.forecastReason.coding.code = #7716002
+* recommendation.forecastReason.coding.display = "Smoker"
+
+* recommendation.dateCriterion.code.coding.system = "http://loinc.org"
+* recommendation.dateCriterion.code.coding.code = #30981-5
+* recommendation.dateCriterion.code.coding.display = "Earliest date to give"
+* recommendation.dateCriterion.value = "2020-02-02"
+
+* recommendation.description = "Adenovirus types 4 and 7"
+* recommendation.series = "1"
+
+* recommendation.doseNumberString = "1"
+* recommendation.seriesDosesString = "1"
+
+
+Instance: OrganizationExample
+InstanceOf: Organization
+Usage: #example
+Title: "OrganizationExample"
+Description: "An example of an organization"
+* name = "Example Organization"

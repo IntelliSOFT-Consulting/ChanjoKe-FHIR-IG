@@ -16,3 +16,32 @@ Description: "Service Request for defaulter tracing"
 * requester MS
 * requester.display 1..1
 * requester.reference 1..1
+
+Instance: ServiceRequestExample
+InstanceOf: ServiceRequest
+Usage: #example
+Title: "ServiceRequestExample"
+Description: "An example of a service request"
+* status = #active
+* intent = #order
+* subject = Reference(PatientExample)
+
+
+Instance: DefaulterTracingRequestExample
+InstanceOf: DefaulterTracingRequest
+Usage: #example
+Title: "DefaulterTracingRequestExample"
+Description: "An example of a defaulter tracing request"
+* identifier.system = "http://example.org/kenya/serviceRequest"
+* identifier.use = #official
+* identifier.value = "123456"
+* basedOn = Reference(ServiceRequestExample)
+* status = #active
+* intent = #order
+* category = ServiceRequests#108252007
+* priority = #routine
+* subject.display = "John Doe"
+* subject = Reference(PatientExample)
+* authoredOn = "2020-02-02"
+* requester.display = "Example Practitioner"
+* requester = Reference(KenyanPractitionerExample)
