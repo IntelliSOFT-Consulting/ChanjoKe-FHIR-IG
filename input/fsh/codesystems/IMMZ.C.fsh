@@ -51,7 +51,7 @@ Usage: #example
 Title: "IMMZ.C CodeSystem for Data Elements"
 Description: "CodeSystem for IMMZ.C Data Elements"
 
-* url = "http://example.org/fhir/CodeSystem/IMMZ-C"
+// * url = "http://example.org/CodeSystem/IMMZ-C"
 * version = "1.0.0"
 * name = "IMMZ_C"
 * status = #active
