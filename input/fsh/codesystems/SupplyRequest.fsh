@@ -8,7 +8,7 @@ Description:  "CodeSystem for Adjustment Type"
 * #positiveAdjustment "Positive Adjustment" "Positive Adjustment Type"
 * #negativeAdjustment "Negative Adjustment" "Stock Adjustment Type"
 
-Instance: STOCKADJUSTMENTTYPE
+Instance: STOCKADJUSTMENTTYPEExample
 InstanceOf: CodeSystem
 Usage: #example
 Title: "codeSystem for Adjustment Type"
