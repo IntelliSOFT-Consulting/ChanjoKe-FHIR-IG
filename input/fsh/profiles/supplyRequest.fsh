@@ -43,13 +43,13 @@ Description: "An example of a Supply Request"
 * identifier.value = "123456"
 
 * quantity.value = 50
-* quantity.unit = "doses"
+* quantity.unit = "mm"
 * quantity.system = "http://unitsofmeasure.org"
-* quantity.code = #doses
+* quantity.code = #mm
 
 * authoredOn = "2020-02-02"
 * occurrenceDateTime = "2020-02-02"
-* requester = Reference(ExamplePatient)
+* requester = Reference(PatientExample)
 * itemReference = Reference(MedicationExample)
 
 * extension[date-of-last-order].valueDate = "2020-02-02"
