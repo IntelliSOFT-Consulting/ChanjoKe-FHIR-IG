@@ -26,7 +26,7 @@ Title: "Kenya Vaccine Codes"
 * #DTP-Hib-Hep-B ^property.valueCoding = $cvx#102
 
 
-Instance: KenyaVaccineCodes
+Instance: KenyaVaccineCodesExample
 InstanceOf: CodeSystem
 Usage: #example
 Title: "Kenya Vaccine Codes"
@@ -35,7 +35,7 @@ Description: "CodeSystem for Kenya Vaccine Codes"
 * status = #draft
 * experimental = false
 * caseSensitive = false
-* url = "http://example.org/CodeSystem/KenyaVaccineCodes"
+* url = "http://example.org/CodeSystem/KenyaVaccineCodesExample"
 * version = "0.1.0"
 * copyright = ""
 * content = #complete
@@ -91,7 +91,7 @@ Title: "Reason Vaccine not Administered"
 * #Unspecified "Unspecified reason" "The immunization event was not carried out for an unspecified reason."
 
 
-Instance: KenyanImmunizationNotDoneReasonsCS
+Instance: KenyanImmunizationNotDoneReasonsCSExample
 InstanceOf: CodeSystem
 Usage: #example
 Title: "Reason Vaccine not Administered"
@@ -100,7 +100,7 @@ Description: "CodeSystem for reasons vaccine not administered in Kenya"
 * status = #draft
 * experimental = false
 * caseSensitive = false
-* url = "http://example.org/CodeSystem/KenyanImmunizationNotDoneReasonsCS"
+* url = "http://example.org/CodeSystem/KenyanImmunizationNotDoneReasonsCSExample"
 * version = "0.1.0"
 * copyright = "Public Domain of some kind"
 * content = #complete

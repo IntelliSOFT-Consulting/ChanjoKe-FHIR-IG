@@ -25,18 +25,18 @@ Description:  "Data elements for the IMMZ.A Register Client Data Dictionary."
     * ^code[+] = IMMZ.A#DE19 
   * email 0..1 string "Caregiver's Email" "Email associated with the Caregiver"
     * ^code[+] = IMMZ.A#DE4
-* address 0..1 	Address "Address" "Patient Address"
-  * county 0..1 Address "Client's county of residence"
+* address 0..1 	BackboneElement "Address" "Patient Address"
+  * county 0..1 string "Client's county of residence"
     * ^code[+] = IMMZ.A#DE37
-  * subcounty 0..1 Address "Client's sub county of residence"
+  * subcounty 0..1 string "Client's sub county of residence"
     * ^code[+] = IMMZ.A#DE36
-  * constituency 0..1 Address "Client's constituency of residence"
+  * constituency 0..1 string "Client's constituency of residence"
     * ^code[+] = IMMZ.A#DE35
-  * ward 0..1 Address "Client's ward of residence"
+  * ward 0..1 string "Client's ward of residence"
     * ^code[+] = IMMZ.A#DE34
-  * town  0..1 Address "Client's town/TradingCentre/Landmark"
+  * town  0..1 string "Client's town/TradingCentre/Landmark"
     * ^code[+] = IMMZ.A#DE33
-  * village 0..1 Address "Client's village/House No. of residence"
+  * village 0..1 string "Client's village/House No. of residence"
     * ^code[+] = IMMZ.A#DE32
 * healthWorker 1..1 boolean "Active health worker" "Is the client an active and participating health worker. This data element is used mainly for reporting and indicators purposes."  
   * ^code[+] = IMMZ.A#DE21
@@ -65,12 +65,12 @@ Description: "An example of a IMMZA Register Client"
 * contact.name = "Jane Doe"
 * contact.telecom = "555-1234"
 * contact.email = "jane.doe@example.com"
-* address.county.text = "Example County"
-* address.subcounty.text = "Example Subcounty"
-* address.constituency.text = "Example Constituency"
-* address.ward.text = "Example Ward"
-* address.town.text = "Example Town"
-* address.village.text = "Example Village"
+* address.county = "Example County"
+* address.subcounty = "Example Subcounty"
+* address.constituency = "Example Constituency"
+* address.ward = "Example Ward"
+* address.town = "Example Town"
+* address.village = "Example Village"
 * healthWorker = true
 * generalPractitioner.name = "Dr. Smith"
 * generalPractitioner.telecom = "555-5678"

@@ -101,7 +101,7 @@ Description: "An example of a Supply Delivery Profile"
 * extension[remainingQuantity].valueInteger = 50
 * extension[issueDate].valueDate = "2020-02-02"
 * extension[stockLocation].valueString = "Nairobi"
-* extension[batchNumber].valueString
+* extension[batchNumber].valueString = "123456"
 * extension[quantityIssued].valueInteger = 10
 * extension[vvmStatus].valueString = "done"
 * extension[reasonForAdjustment].valueString = "Reason for adjustment"

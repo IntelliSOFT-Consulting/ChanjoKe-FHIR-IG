@@ -38,9 +38,10 @@ Description: "An example instance of the IMMZ.D Defaulter Tracing Profile."
 * clientInformation.name.family = "Doe"
 * clientInformation.age = 2
 * clientInformation.address.town.text = "Nairobi"
-* clientInformation.contact.relationship.coding[0].system = "http://hl7.org/fhir/v3/RoleCode"
+// * clientInformation.contact.relationship.coding[0].system = "http://hl7.org/fhir/v3/RoleCode"
+* clientInformation.contact.relationship.coding[0].system = "http://terminology.hl7.org/CodeSystem/v2-0131"
 * clientInformation.contact.relationship.coding[0].code = #N
-* clientInformation.contact.relationship.coding[0].display = "Next of Kin"
+* clientInformation.contact.relationship.coding[0].display = "Next-of-Kin"
 * clientInformation.contact.name = "Mary Doe"
 * clientInformation.contact.telecom = "+254711123456"
 * dueOroverdueVaccinations = KenyaVaccineCodes#BCG

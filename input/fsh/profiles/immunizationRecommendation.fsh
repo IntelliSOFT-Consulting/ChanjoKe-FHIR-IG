@@ -54,7 +54,7 @@ Description: "An example of a Kenyan Immunization Recommendation"
 * recommendation.forecastStatus.text = "Due"
 
 * recommendation.forecastReason.coding.system = "http://snomed.info/sct"
-* recommendation.forecastReason.coding.code = #7716002
+* recommendation.forecastReason.coding.code = #77176002
 * recommendation.forecastReason.coding.display = "Smoker"
 
 * recommendation.dateCriterion.code.coding.system = "http://loinc.org"

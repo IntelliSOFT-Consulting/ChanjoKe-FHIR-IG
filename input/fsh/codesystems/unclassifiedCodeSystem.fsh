@@ -57,7 +57,7 @@ Description:  "Service Reequests to be used within the Kenyan Contexts"
 * #KNHTS-001 "Defaulter Tracing"
 
 
-Instance: ServiceRequests
+Instance: ServiceRequestsExample
 InstanceOf: CodeSystem
 Usage: #example
 Title: "Service Requests"
@@ -102,7 +102,7 @@ Description:  "Format of the representation of QR code"
 * #serialized "http://smart.who.int/ddcc/CodeSystem/DDCC-QR-Format-CodeSystem" "serialized"
 * #pdf "http://smart.who.int/ddcc/CodeSystem/DDCC-QR-Format-CodeSystem" "pdf"
 
-Instance: DDCQRFormatCodes
+Instance: DDCQRFormatCodesExample
 InstanceOf: CodeSystem
 Usage: #example
 Title: "DDCC QR Format Codes"
@@ -143,7 +143,7 @@ Description:  "Defined Identifier Types for KenyanRegistryPatient"
 * #nemis "NEMIS No"
 * #bNo "Birth Notification Number"
 
-Instance: IdentifierTypes
+Instance: IdentifierTypesExample
 InstanceOf: CodeSystem
 Usage: #example
 Title: "Identifier Types"
@@ -185,7 +185,7 @@ Description:  "Patient's family members, friends or others that can be contacted
 * #DE2 "Mother"
 * #DE3 "Guardian"
 
-Instance: PatientContactList
+Instance: PatientContactListExample
 InstanceOf: CodeSystem
 Usage: #example
 Title: "Patient's Contact List"
