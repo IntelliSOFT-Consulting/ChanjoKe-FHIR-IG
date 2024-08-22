@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.chanjoKe
-canonical: http://example.org
+canonical: https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG
 name: chanjoKeIG
 title: ChanjoKE Immunization Implementation Guide
 description: ChanjoKE Immunization Implementation Guide
