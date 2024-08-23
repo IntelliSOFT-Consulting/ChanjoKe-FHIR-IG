@@ -29,7 +29,7 @@ Usage: #example
 Title: "DigitalCertificatePatientExample"
 Description: "An example of a digital certificate patient"
 * identifier.use = #usual
-* identifier.system = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/identifiers"
+* identifier.system = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/identifiers"
 * identifier.value = "DCP123456789"
 * name[ddcName].text = "John Doe"
 * gender = #male

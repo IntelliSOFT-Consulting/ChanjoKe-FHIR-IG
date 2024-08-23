@@ -26,7 +26,7 @@ Usage: #example
 Title: "IMMZ.D CodeSystem for Defaulter Tracing"
 Description: "CodeSystem for IMMZ.D Data Elements"
 
-// * url = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/CodeSystem/IMMZ-D"
+// * url = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/CodeSystem/IMMZ-D"
 * version = "1.0.0"
 * name = "IMMZ_D"
 * status = #active

@@ -1,24 +1,24 @@
-Alias: $date-received = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/date-received
-Alias: $origin = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/origin
-Alias: $order-number = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/order-number
-Alias: $vaccine = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/vaccine
-Alias: $expiry-date  = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/expiry-date 
-Alias: $stock-quantity = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/stock-quantity
-Alias: $manufacturer-details = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/manufacturer-details
-Alias: $allocated-quantity  = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/allocated-quantity 
-Alias: $remaining-quantity = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/remaining-quantity
-Alias: $issue-date = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/issue-date
-Alias: $stock-location = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/stock-location
-Alias: $batch-number = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/batch-number
-Alias: $quantity-issued = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/quantity-issued
-Alias: $vvm-status = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/vvm-status
-Alias: $reason-for-adjustment = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/reason-for-adjustment
-Alias: $stock-origin = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/stock-origin
-Alias: $previous-vvm = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/previous-vvm
-Alias: $new-vvm = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/new-vvm
-Alias: $physical-count  = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/physical-count 
-Alias: $stock-adjustment-date = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/stock-adjustment-date
-Alias: $adjustment-type = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/adjustment-type
+Alias: $date-received = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/date-received
+Alias: $origin = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/origin
+Alias: $order-number = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/order-number
+Alias: $vaccine = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/vaccine
+Alias: $expiry-date  = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/expiry-date 
+Alias: $stock-quantity = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/stock-quantity
+Alias: $manufacturer-details = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/manufacturer-details
+Alias: $allocated-quantity  = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/allocated-quantity 
+Alias: $remaining-quantity = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/remaining-quantity
+Alias: $issue-date = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/issue-date
+Alias: $stock-location = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/stock-location
+Alias: $batch-number = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/batch-number
+Alias: $quantity-issued = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/quantity-issued
+Alias: $vvm-status = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/vvm-status
+Alias: $reason-for-adjustment = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/reason-for-adjustment
+Alias: $stock-origin = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/stock-origin
+Alias: $previous-vvm = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/previous-vvm
+Alias: $new-vvm = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/new-vvm
+Alias: $physical-count  = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/physical-count 
+Alias: $stock-adjustment-date = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/stock-adjustment-date
+Alias: $adjustment-type = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/adjustment-type
 
 Profile: SupplyDeliveryProfile
 Parent: SupplyDelivery
@@ -72,7 +72,7 @@ InstanceOf: SupplyDeliveryProfile
 Usage: #example
 Title: "SupplyDeliveryProfileExample"
 Description: "An example of a Supply Delivery Profile"
-* identifier.system = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/supply-delivery"
+* identifier.system = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/supply-delivery"
 * identifier.use = #official
 * identifier.value = "123456"
 

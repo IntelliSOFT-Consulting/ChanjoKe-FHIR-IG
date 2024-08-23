@@ -45,7 +45,7 @@ Usage: #example
 Title: "IMMZ.A CodeSystem for Data Elements"
 Description: "CodeSystem for IMMZ.A Data Elements"
 
-// * url = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/CodeSystem/IMMZ-A"
+// * url = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/CodeSystem/IMMZ-A"
 * version = "1.0.0"
 * name = "IMMZ_A"
 * status = #active

@@ -27,7 +27,7 @@ Usage: #example
 Title: "KenyanImmunizationRecommendationExample"
 Description: "An example of a Kenyan Immunization Recommendation"
 * identifier.use = #official
-* identifier.system = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/kenyan-immunization-recommendation"
+* identifier.system = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/kenyan-immunization-recommendation"
 * identifier.value = "1234567890"
 * patient = Reference(PatientExample)
 * date = "2020-02-02"

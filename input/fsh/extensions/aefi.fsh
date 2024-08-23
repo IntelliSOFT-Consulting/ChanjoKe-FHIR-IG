@@ -28,7 +28,7 @@ InstanceOf: Extension
 Usage: #inline
 Title: "EventDetailsExample"
 Description: "An example of EventDetails"
-* url = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/fhir/StructureDefinition/event-details"
+* url = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/fhir/StructureDefinition/event-details"
 * valueString = "Brief details of the adverse event."
 
 Extension: ActionTaken
@@ -45,7 +45,7 @@ InstanceOf: Extension
 Usage: #inline
 Title: "ActionTakenExample"
 Description: "An example of ActionTaken"
-* url = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/fhir/StructureDefinition/action-taken"
+* url = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/fhir/StructureDefinition/action-taken"
 * valueCode = IMMZ.F#DE21
 
 
@@ -62,7 +62,7 @@ InstanceOf: Extension
 Usage: #inline
 Title: "FacilityReportedAEFIExample"
 Description: "An example of FacilityReportedAEFI"
-* url = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/fhir/StructureDefinition/facility-reported"
+* url = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/fhir/StructureDefinition/facility-reported"
 * valueString = "Example facility"
 
 
@@ -79,7 +79,7 @@ InstanceOf: Extension
 Usage: #inline
 Title: "TreatmentGivenToAEFIExample"
 Description: "An example of TreatmentGivenToAEFI"
-* url = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/fhir/StructureDefinition/treatment-given"
+* url = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/fhir/StructureDefinition/treatment-given"
 * valueString = "Example treatment given"
 
 Extension: TreatmentDetailsForAEFI 
@@ -95,7 +95,7 @@ InstanceOf: Extension
 Usage: #inline
 Title: "TreatmentDetailsForAEFIExample"
 Description: "An example of TreatmentDetailsForAEFI"
-* url = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/fhir/StructureDefinition/treatment-details"
+* url = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/fhir/StructureDefinition/treatment-details"
 * valueString = "Details of the treatment given for the AEFI"
 
 
@@ -112,7 +112,7 @@ InstanceOf: Extension
 Usage: #inline
 Title: "SpecimenCollectedExample"
 Description: "An example of SpecimenCollected"
-* url = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/fhir/StructureDefinition/specimen-collected"
+* url = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/fhir/StructureDefinition/specimen-collected"
 * valueString = "Example specimen collected"
 
 
@@ -129,7 +129,7 @@ InstanceOf: Extension
 Usage: #inline
 Title: "SpecimenDetailsExample"
 Description: "An example of SpecimenDetails"
-* url = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/fhir/StructureDefinition/specimen-details"
+* url = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/fhir/StructureDefinition/specimen-details"
 * valueString = "Details of the specimen collected"
 
 
