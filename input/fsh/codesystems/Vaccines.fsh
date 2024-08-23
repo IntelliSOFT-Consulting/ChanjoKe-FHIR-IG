@@ -1,7 +1,7 @@
 CodeSystem: KenyaVaccineCodes
 Id: KenyaVaccineCodes
 Title: "Kenya Vaccine Codes"
-* ^url = "http://example.org/CodeSystem/KenyaVaccineCodes"
+* ^url = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/CodeSystem/KenyaVaccineCodes"
 * ^version = "0.1.0"
 * ^status = #draft
 * ^copyright = ""
@@ -35,7 +35,7 @@ Description: "CodeSystem for Kenya Vaccine Codes"
 * status = #draft
 * experimental = false
 * caseSensitive = false
-* url = "http://example.org/CodeSystem/KenyaVaccineCodesExample"
+* url = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/CodeSystem/KenyaVaccineCodesExample"
 * version = "0.1.0"
 * copyright = ""
 * content = #complete
@@ -77,7 +77,7 @@ Description: "CodeSystem for Kenya Vaccine Codes"
 CodeSystem: KenyanImmunizationNotDoneReasonsCS
 Id: KenyanImmunizationNotDoneReasonsCS
 Title: "Reason Vaccine not Administered"
-* ^url = "http://example.org/CodeSystem/KenyanImmunizationNotDoneReasonsCS"
+* ^url = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/CodeSystem/KenyanImmunizationNotDoneReasonsCS"
 * ^version = "0.1.0"
 * ^status = #draft
 * ^copyright = "Public Domain of some kind"
@@ -100,7 +100,7 @@ Description: "CodeSystem for reasons vaccine not administered in Kenya"
 * status = #draft
 * experimental = false
 * caseSensitive = false
-* url = "http://example.org/CodeSystem/KenyanImmunizationNotDoneReasonsCSExample"
+* url = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/CodeSystem/KenyanImmunizationNotDoneReasonsCSExample"
 * version = "0.1.0"
 * copyright = "Public Domain of some kind"
 * content = #complete

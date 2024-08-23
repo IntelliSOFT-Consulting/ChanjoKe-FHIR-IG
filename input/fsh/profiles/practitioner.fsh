@@ -1,5 +1,5 @@
-Alias: $kenya-counties-extension = http://example.org/StructureDefinition/kenya-counties-extension
-Alias: $kenya-administrative-gender-extension = http://example.org/StructureDefinition/kenya-administrative-gender-extension
+Alias: $kenya-counties-extension = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/kenya-counties-extension
+Alias: $kenya-administrative-gender-extension = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/kenya-administrative-gender-extension
 
 
 Profile: KenyanPractitioner
@@ -30,7 +30,7 @@ InstanceOf: KenyanPractitioner
 Usage: #example
 Title: "KenyanPractitionerExample"
 Description: "An example of a Kenyan Practitioner"
-* identifier.system = "http://example.org/kenya/practitioner"
+* identifier.system = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/kenya/practitioner"
 * identifier.use = #official
 * identifier.value = "123456"
 * name.given = "John"

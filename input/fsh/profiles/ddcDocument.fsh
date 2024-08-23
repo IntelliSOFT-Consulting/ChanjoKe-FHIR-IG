@@ -33,29 +33,29 @@ Usage: #example
 Title: "DigitalCertificateDocumentExample"
 Description: "An example of a digital certificate document"
 * identifier.use = #usual
-* identifier.system = "http://example.org/identifiers"
+* identifier.system = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/identifiers"
 * identifier.value = "DCD123456789"
 * type = #transaction
 * timestamp = "2020-02-02T01:02:03.456+02:00"
-* link[hcid].url = "http://example.org/hcid/DCD123456789"
+* link[hcid].url = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/hcid/DCD123456789"
 
-* entry[ddcComposition].fullUrl = "http://example.org/compositions/DCD123456789"
+* entry[ddcComposition].fullUrl = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/compositions/DCD123456789"
 * entry[ddcComposition].resource = DigitalCertificateCompositionExample
 * entry[ddcComposition].request.method = #POST
 * entry[ddcComposition].request.url = "Composition"
 
 * entry[ddcPatient].resource = DigitalCertificatePatientExample
-* entry[ddcPatient].fullUrl = "http://example.org/patients/DCD123456789"
+* entry[ddcPatient].fullUrl = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/patients/DCD123456789"
 * entry[ddcPatient].request.method = #POST
 * entry[ddcPatient].request.url = "Patient"
 
 * entry[ddcOrganization].resource = DigitalCertificateOrganizationExample
-* entry[ddcOrganization].fullUrl = "http://example.org/organizations/DCD123456789"
+* entry[ddcOrganization].fullUrl = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/organizations/DCD123456789"
 * entry[ddcOrganization].request.method = #POST
 * entry[ddcOrganization].request.url = "Organization"
 
 * entry[ddcDocumentReferenceQR].resource = DigitalCertificateDocumentReferenceQRExample
-* entry[ddcDocumentReferenceQR].fullUrl = "http://example.org/documentReferences/DCD123456789"
+* entry[ddcDocumentReferenceQR].fullUrl = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/documentReferences/DCD123456789"
 * entry[ddcDocumentReferenceQR].request.method = #POST
 * entry[ddcDocumentReferenceQR].request.url = "DocumentReference"
 

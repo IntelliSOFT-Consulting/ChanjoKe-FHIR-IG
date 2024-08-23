@@ -1,19 +1,19 @@
-Alias: $types-of-aefi = http://example.org/StructureDefinition/types-of-aefi
-Alias: $event-details = http://example.org/StructureDefinition/event-details
-Alias: $action-taken = http://example.org/StructureDefinition/action-taken
-Alias: $facility-reported = http://example.org/StructureDefinition/facility-reported
-Alias: $treatment-given = http://example.org/StructureDefinition/treatment-given
-Alias: $treatment-details  = http://example.org/StructureDefinition/treatment-details 
-Alias: $specimen-collected = http://example.org/StructureDefinition/specimen-collected
-Alias: $specimen-details  = http://example.org/StructureDefinition/specimen-details 
-Alias: $reaction-severity = http://example.org/StructureDefinition/reaction-severity
-Alias: $aefi-outcome = http://example.org/StructureDefinition/aefi-outcome
+Alias: $types-of-aefi = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/types-of-aefi
+Alias: $event-details = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/event-details
+Alias: $action-taken = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/action-taken
+Alias: $facility-reported = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/facility-reported
+Alias: $treatment-given = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/treatment-given
+Alias: $treatment-details  = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/treatment-details 
+Alias: $specimen-collected = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/specimen-collected
+Alias: $specimen-details  = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/specimen-details 
+Alias: $reaction-severity = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/reaction-severity
+Alias: $aefi-outcome = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/aefi-outcome
 
 Profile: AdverseEventProfile
 Parent: AdverseEvent
 Description: "Profile for Adverse Event"
 * extension contains 
-    $types-of-aefi named typesOfAefi 0..1 MS and 
+    $types-of-aefi named types-of-aefi 0..1 MS and 
     $event-details named eventDetails 0..1 MS and 
     $action-taken named actionTaken 0..1 MS and 
     $facility-reported named facility-reported 0..1 MS and 
@@ -51,7 +51,7 @@ InstanceOf: AdverseEventProfile
 Usage: #example
 Title: "Example Adverse Event"
 Description: "An example instance of an adverse event profile."
-* identifier.system = "http://example.org/identifiers"
+* identifier.system = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/identifiers"
 * identifier.value = "AE123456789"
 * actuality = #actual
 * date = "2024-05-12"

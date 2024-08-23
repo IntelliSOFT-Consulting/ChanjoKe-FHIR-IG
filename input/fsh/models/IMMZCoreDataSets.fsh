@@ -24,7 +24,7 @@ Description:  "Data elements for the IMMZ.J Vaccination Certificate CoreDataSet 
 
 Mapping:        VaccinationCertificateCoreDataSetToComposition
 Source:         VaccinationCertificateCoreDataSet
-Target:         "http://example.org/ddcc/StructureDefinition/IMMZComposition"
+Target:         "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/ddcc/StructureDefinition/IMMZComposition"
 Id:             immz-composition
 Title:          "WHO Digital Documentation of COVID Certificates"
 
@@ -41,7 +41,7 @@ Description:    "Data elements for the IMMZ.H Vaccination Status Data Dictionary
 * ^name = "VaccinationCertificate_VS"
 * ^status = #active
 * ^abstract = true
-* ^type = "http://example.org/fhir/StructureDefinition/vaccination-certificate-core-data-set"
+* ^type = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/fhir/StructureDefinition/vaccination-certificate-core-data-set"
 
 * vaccination 1..1 BackboneElement "Vaccination Event"
   * ^code[+] = IMMZ.H#DE4 
@@ -87,7 +87,7 @@ Description:  "Data elements for the IMMZ.G Vaccination Status - Continuity of C
 * ^name = "VaccinationCertificate_CoC"
 * ^status = #active
 * ^abstract = true
-* ^type = "http://example.org/fhir/StructureDefinition/vaccination-certificate-vs"
+* ^type = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/fhir/StructureDefinition/vaccination-certificate-vs"
 
 // * vaccination 0..1 BackboneElement "Vaccination" 
 //   * centre 1..1 string "Centre" "Administering centre"
@@ -103,5 +103,5 @@ Description:  "Data elements for the IMMZ.K Vaccination Status - Proof of Vaccin
 * ^name = "VaccinationCertificate_PoV"
 * ^status = #active
 * ^abstract = true
-* ^type = "http://example.org/fhir/StructureDefinition/vaccination-certificate-vs"
+* ^type = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/fhir/StructureDefinition/vaccination-certificate-vs"
 

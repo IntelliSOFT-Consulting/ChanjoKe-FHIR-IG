@@ -1,24 +1,24 @@
-Alias: $date-received = http://example.org/StructureDefinition/date-received
-Alias: $origin = http://example.org/StructureDefinition/origin
-Alias: $order-number = http://example.org/StructureDefinition/order-number
-Alias: $vaccine = http://example.org/StructureDefinition/vaccine
-Alias: $expiry-date  = http://example.org/StructureDefinition/expiry-date 
-Alias: $stock-quantity = http://example.org/StructureDefinition/stock-quantity
-Alias: $manufacturer-details = http://example.org/StructureDefinition/manufacturer-details
-Alias: $allocated-quantity  = http://example.org/StructureDefinition/allocated-quantity 
-Alias: $remaining-quantity = http://example.org/StructureDefinition/remaining-quantity
-Alias: $issue-date = http://example.org/StructureDefinition/issue-date
-Alias: $stock-location = http://example.org/StructureDefinition/stock-location
-Alias: $batch-number = http://example.org/StructureDefinition/batch-number
-Alias: $quantity-issued = http://example.org/StructureDefinition/quantity-issued
-Alias: $vvm-status = http://example.org/StructureDefinition/vvm-status
-Alias: $reason-for-adjustment = http://example.org/StructureDefinition/reason-for-adjustment
-Alias: $stock-origin = http://example.org/StructureDefinition/stock-origin
-Alias: $previous-vvm = http://example.org/StructureDefinition/previous-vvm
-Alias: $new-vvm = http://example.org/StructureDefinition/new-vvm
-Alias: $physical-count  = http://example.org/StructureDefinition/physical-count 
-Alias: $stock-adjustment-date = http://example.org/StructureDefinition/stock-adjustment-date
-Alias: $adjustment-type = http://example.org/StructureDefinition/adjustment-type
+Alias: $date-received = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/date-received
+Alias: $origin = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/origin
+Alias: $order-number = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/order-number
+Alias: $vaccine = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/vaccine
+Alias: $expiry-date  = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/expiry-date 
+Alias: $stock-quantity = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/stock-quantity
+Alias: $manufacturer-details = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/manufacturer-details
+Alias: $allocated-quantity  = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/allocated-quantity 
+Alias: $remaining-quantity = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/remaining-quantity
+Alias: $issue-date = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/issue-date
+Alias: $stock-location = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/stock-location
+Alias: $batch-number = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/batch-number
+Alias: $quantity-issued = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/quantity-issued
+Alias: $vvm-status = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/vvm-status
+Alias: $reason-for-adjustment = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/reason-for-adjustment
+Alias: $stock-origin = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/stock-origin
+Alias: $previous-vvm = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/previous-vvm
+Alias: $new-vvm = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/new-vvm
+Alias: $physical-count  = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/physical-count 
+Alias: $stock-adjustment-date = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/stock-adjustment-date
+Alias: $adjustment-type = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/adjustment-type
 
 Profile: SupplyDeliveryProfile
 Parent: SupplyDelivery
@@ -72,7 +72,7 @@ InstanceOf: SupplyDeliveryProfile
 Usage: #example
 Title: "SupplyDeliveryProfileExample"
 Description: "An example of a Supply Delivery Profile"
-* identifier.system = "http://example.org/supply-delivery"
+* identifier.system = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/supply-delivery"
 * identifier.use = #official
 * identifier.value = "123456"
 

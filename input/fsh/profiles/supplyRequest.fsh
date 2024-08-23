@@ -1,13 +1,13 @@
-Alias: $date-of-last-order = http://example.org/StructureDefinition/date-of-last-order
-Alias: $expected-date-of-next-order = http://example.org/StructureDefinition/expected-date-of-next-order
-Alias: $total-population = http://example.org/StructureDefinition/total-population
-Alias: $children = http://example.org/StructureDefinition/children
-Alias: $pregnant-women = http://example.org/StructureDefinition/pregnant-women
-Alias: $doses-in-stock  = http://example.org/StructureDefinition/doses-in-stock 
-Alias: $minimum = http://example.org/StructureDefinition/minimum
-Alias: $maximum = http://example.org/StructureDefinition/maximum
-Alias: $recommended-stock = http://example.org/StructureDefinition/recommended-stock
-Alias: $ordered-amount = http://example.org/StructureDefinition/ordered-amount
+Alias: $date-of-last-order = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/date-of-last-order
+Alias: $expected-date-of-next-order = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/expected-date-of-next-order
+Alias: $total-population = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/total-population
+Alias: $children = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/children
+Alias: $pregnant-women = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/pregnant-women
+Alias: $doses-in-stock  = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/doses-in-stock 
+Alias: $minimum = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/minimum
+Alias: $maximum = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/maximum
+Alias: $recommended-stock = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/recommended-stock
+Alias: $ordered-amount = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/ordered-amount
 
 Profile: SupplyRequestProfile
 Parent: SupplyRequest
@@ -38,7 +38,7 @@ InstanceOf: SupplyRequestProfile
 Usage: #example
 Title: "SupplyRequestProfileExample"
 Description: "An example of a Supply Request"
-* identifier.system = "http://example.org/kenya/supplyRequest"
+* identifier.system = "https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/kenya/supplyRequest"
 * identifier.use = #official
 * identifier.value = "123456"
 

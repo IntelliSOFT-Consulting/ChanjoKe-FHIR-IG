@@ -1,5 +1,5 @@
-Alias: $kenya-counties-extension = http://example.org/StructureDefinition/kenya-counties-extension
-Alias: $kenya-healthworker-extension = http://example.org/StructureDefinition/kenya-health-worker-extension
+Alias: $kenya-counties-extension = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/kenya-counties-extension
+Alias: $kenya-healthworker-extension = https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/StructureDefinition/kenya-health-worker-extension
 
 Profile: KenyanImmunizationRegistryPatient
 Parent: Patient

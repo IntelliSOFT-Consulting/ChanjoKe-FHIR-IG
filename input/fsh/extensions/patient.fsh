@@ -5,7 +5,7 @@ Description: "A code representing kenya counties"
 Context: Patient
 // url, status, purpose, and other metadata could be defined here using caret syntax (omitted)
 * value[x] only code
-* value[x] from http://example.org/ValueSet/kenyaCountiesVS (required)
+* value[x] from https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG/ValueSet/kenyaCountiesVS (required)
 
 Instance: KenyaCountiesExample
 InstanceOf: KenyaCountiesExtension
