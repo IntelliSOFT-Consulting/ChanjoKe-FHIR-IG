@@ -51,7 +51,7 @@ Usage: #example
 Title: "IMMZ.F CodeSystem for Data Elements"
 Description: "CodeSystem for IMMZ.F Data Elements"
 
-// * url = "http://example.org/CodeSystem/IMMZ-F"
+// * url = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/CodeSystem/IMMZ-F"
 * status = #active
 * experimental = false
 * caseSensitive = false

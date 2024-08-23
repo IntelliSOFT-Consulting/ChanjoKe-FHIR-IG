@@ -32,7 +32,7 @@ InstanceOf: DefaulterTracingRequest
 Usage: #example
 Title: "DefaulterTracingRequestExample"
 Description: "An example of a defaulter tracing request"
-* identifier.system = "http://example.org/kenya/serviceRequest"
+* identifier.system = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/kenya/serviceRequest"
 * identifier.use = #official
 * identifier.value = "123456"
 * basedOn = Reference(ServiceRequestExample)

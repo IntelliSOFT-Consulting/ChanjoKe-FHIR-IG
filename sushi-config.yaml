@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.chanjoKe
-canonical: https://build.fhir.org/ig/IntelliSOFT-Consulting/ChanjoKe-FHIR-IG
+canonical: https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG
 name: chanjoKeIG
 title: ChanjoKE Immunization Implementation Guide
 description: ChanjoKE Immunization Implementation Guide
@@ -16,9 +16,9 @@ releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | re
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: Intellisoft Consulting Ltd 
-  url: https://www.intellisoftkenya.com/
-  email: info[at]intellisoftkenya.com
+    name: Intellisoft Consulting Ltd
+    url: https://www.intellisoftkenya.com/
+    email: info[at]intellisoftkenya.com
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
@@ -44,28 +44,27 @@ publisher:
 # sub-pages.
 #
 pages:
-  index.md:
-    title: Home
-  dependancies.md:
-    title: Dependancies  
+    index.md:
+        title: Home
+    dependancies.md:
+        title: Dependancies
 
-  business-requirements.md:
-    title: Business Requirements
-  concepts.md:
-    title: Concepts 
-  generic-personas.md:
-    title: Generic Personas 
-  user-scenarios.md:
-    title: User Scenarios 
-  business-processes.md:
-    title: Business Processes 
-  decision-support-logic.md:
-    title: Decision Support Logic 
-  functional-requirements.md:
-    title: Functional Requirements 
-  non-functional-requirements.md:
-    title: Non-Functional Requirements   
-    
+    business-requirements.md:
+        title: Business Requirements
+    concepts.md:
+        title: Concepts
+    generic-personas.md:
+        title: Generic Personas
+    user-scenarios.md:
+        title: User Scenarios
+    business-processes.md:
+        title: Business Processes
+    decision-support-logic.md:
+        title: Decision Support Logic
+    functional-requirements.md:
+        title: Functional Requirements
+    non-functional-requirements.md:
+        title: Non-Functional Requirements
 
 #   implementation.xml:
 #   examples.xml:
@@ -124,8 +123,8 @@ pages:
 # it with the correct canonical when generating the IG JSON.
 #
 # global:
-#   Patient: http://example.org/fhir/StructureDefinition/my-patient-profile
-#   Encounter: http://example.org/fhir/StructureDefinition/my-encounter-profile
+#   Patient: https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/fhir/StructureDefinition/my-patient-profile
+#   Encounter: https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/fhir/StructureDefinition/my-encounter-profile
 #
 #
 # The resources property corresponds to IG.definition.resource.
@@ -218,17 +217,17 @@ pages:
 # See the individual option definitions below for more detail.
 #
 instanceOptions:
-  # When set to true, slices must be referred to by name and not only by a numeric index in order to be used
-  # in an Instance's assignment rule. All slices appear in the order in which they are specified in FSH rules.
-  # While SUSHI defaults to false for legacy reasons, manualSliceOrding is recommended for new projects.
-  manualSliceOrdering: true # true | false
-  # Determines for which types of Instances SUSHI will automatically set meta.profile
-  # if InstanceOf references a profile:
-  #
-  # setMetaProfile: always # always | never | inline-only | standalone-only
-  #
-  #
-  # Determines for which types of Instances SUSHI will automatically set id
-  # if InstanceOf references a profile:
-  #
-  # setId: always # always | standalone-only
+    # When set to true, slices must be referred to by name and not only by a numeric index in order to be used
+    # in an Instance's assignment rule. All slices appear in the order in which they are specified in FSH rules.
+    # While SUSHI defaults to false for legacy reasons, manualSliceOrding is recommended for new projects.
+    manualSliceOrdering: true # true | false
+    # Determines for which types of Instances SUSHI will automatically set meta.profile
+    # if InstanceOf references a profile:
+    #
+    # setMetaProfile: always # always | never | inline-only | standalone-only
+    #
+    #
+    # Determines for which types of Instances SUSHI will automatically set id
+    # if InstanceOf references a profile:
+    #
+    # setId: always # always | standalone-only

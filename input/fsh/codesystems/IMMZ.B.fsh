@@ -79,7 +79,7 @@ Usage: #example
 Title: "IMMZ.B CodeSystem for Data Elements"
 Description: "CodeSystem for IMMZ.B Data Elements"
 
-// * url = "http://example.org/CodeSystem/IMMZ-B"
+// * url = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/CodeSystem/IMMZ-B"
 * version = "1.0.0"
 * name = "IMMZ_B"
 * status = #active
