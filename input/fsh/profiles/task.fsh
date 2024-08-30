@@ -1,4 +1,4 @@
-Alias: $products  = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/products 
+Alias: $products  = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/products 
 
 Profile: TaskProfile
 Parent: Task
@@ -17,7 +17,7 @@ InstanceOf: TaskProfile
 Usage: #example
 Title: "TaskProfileExample"
 Description: "An example of a Task"
-* identifier.system = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/kenya/task"
+* identifier.system = "https://chanjoke.intellisoftkenya.com/fhir/kenya/task"
 * identifier.use = #official
 * identifier.value = "123456"
 

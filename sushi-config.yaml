@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.chanjoKe
-canonical: https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG
+canonical: https://chanjoke.intellisoftkenya.com/fhir
 name: chanjoKeIG
 title: ChanjoKE Immunization Implementation Guide
 description: ChanjoKE Immunization Implementation Guide
@@ -123,8 +123,8 @@ pages:
 # it with the correct canonical when generating the IG JSON.
 #
 # global:
-#   Patient: https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/fhir/StructureDefinition/my-patient-profile
-#   Encounter: https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/fhir/StructureDefinition/my-encounter-profile
+#   Patient: https://chanjoke.intellisoftkenya.com/fhir/fhir/StructureDefinition/my-patient-profile
+#   Encounter: https://chanjoke.intellisoftkenya.com/fhir/fhir/StructureDefinition/my-encounter-profile
 #
 #
 # The resources property corresponds to IG.definition.resource.

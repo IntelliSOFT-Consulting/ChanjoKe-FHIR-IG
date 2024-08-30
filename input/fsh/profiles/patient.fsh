@@ -1,5 +1,5 @@
-Alias: $kenya-counties-extension = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/kenya-counties-extension
-Alias: $kenya-healthworker-extension = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/kenya-health-worker-extension
+Alias: $kenya-counties-extension = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/kenya-counties-extension
+Alias: $kenya-healthworker-extension = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/kenya-health-worker-extension
 
 Profile: KenyanImmunizationRegistryPatient
 Parent: Patient

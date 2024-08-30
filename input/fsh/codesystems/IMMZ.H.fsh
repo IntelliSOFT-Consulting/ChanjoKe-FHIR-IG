@@ -33,7 +33,7 @@ Usage: #example
 Title: "IMMZ.H CodeSystem for Vaccine status"
 Description: "CodeSystem for Digital documentation of Immunization certificate (DDIMZC) status Data Elements"
 
-// * url = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/CodeSystem/IMMZ-H"
+// * url = "https://chanjoke.intellisoftkenya.com/fhir/CodeSystem/IMMZ-H"
 * status = #active
 * experimental = false
 * caseSensitive = false
