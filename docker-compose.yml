@@ -5,4 +5,4 @@ services:
       dockerfile: Dockerfile
     image: chanjo-ke-fhir-ig:latest
     ports:
-     - "80:80"
+     - "81:80"
