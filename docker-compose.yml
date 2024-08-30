@@ -1,0 +1,8 @@
+services:
+  chanjo-ke-fhir-ig:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: chanjo-ke-fhir-ig:latest
+    ports:
+     - "80:80"
