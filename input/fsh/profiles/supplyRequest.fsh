@@ -33,32 +33,32 @@ Description: "A record of a request for a medication, substance or device used i
 * itemReference ^short = "Antigen"
 
 
-Instance: SupplyRequestProfileExample
-InstanceOf: SupplyRequestProfile
-Usage: #example
-Title: "SupplyRequestProfileExample"
-Description: "An example of a Supply Request"
-* identifier.system = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/kenya/supplyRequest"
-* identifier.use = #official
-* identifier.value = "123456"
+// Instance: SupplyRequestProfileExample
+// InstanceOf: SupplyRequestProfile
+// Usage: #example
+// Title: "SupplyRequestProfileExample"
+// Description: "An example of a Supply Request"
+// * identifier.system = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/kenya/supplyRequest"
+// * identifier.use = #official
+// * identifier.value = "123456"
 
-* quantity.value = 50
-* quantity.unit = "mm"
-* quantity.system = "http://unitsofmeasure.org"
-* quantity.code = #mm
+// * quantity.value = 50
+// * quantity.unit = "mm"
+// * quantity.system = "http://unitsofmeasure.org"
+// * quantity.code = #mm
 
-* authoredOn = "2020-02-02"
-* occurrenceDateTime = "2020-02-02"
-* requester = Reference(PatientExample)
-* itemReference = Reference(MedicationExample)
+// * authoredOn = "2020-02-02"
+// * occurrenceDateTime = "2020-02-02"
+// * requester = Reference(PatientExample)
+// * itemReference = Reference(MedicationExample)
 
-* extension[date-of-last-order].valueDate = "2020-02-02"
-* extension[expected-date-of-next-order].valueDate = "2020-02-02"
-* extension[total-population].valueInteger = 100
-* extension[children].valueInteger = 50
-* extension[pregnant-women].valueInteger = 50
-* extension[doses-in-stock].valueInteger = 100
-* extension[minimum].valueInteger = 50
-* extension[maximum].valueInteger = 100
-* extension[recommended-stock].valueInteger = 100
-* extension[ordered-amount].valueInteger = 50
+// * extension[date-of-last-order].valueDate = "2020-02-02"
+// * extension[expected-date-of-next-order].valueDate = "2020-02-02"
+// * extension[total-population].valueInteger = 100
+// * extension[children].valueInteger = 50
+// * extension[pregnant-women].valueInteger = 50
+// * extension[doses-in-stock].valueInteger = 100
+// * extension[minimum].valueInteger = 50
+// * extension[maximum].valueInteger = 100
+// * extension[recommended-stock].valueInteger = 100
+// * extension[ordered-amount].valueInteger = 50
