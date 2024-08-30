@@ -22,7 +22,7 @@ Usage: #example
 Title: "IMMZ.Z1 CodeSystem for Data Elements"
 Description: "CodeSystem for IMMZ.Z1 Data Elements"
 
-// * url = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/CodeSystem/IMMZ-Z1"
+// * url = "https://chanjoke.intellisoftkenya.com/fhir/CodeSystem/IMMZ-Z1"
 * status = #active
 * experimental = false
 * caseSensitive = false

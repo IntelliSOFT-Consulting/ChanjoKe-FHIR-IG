@@ -1,13 +1,13 @@
-Alias: $types-of-aefi = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/types-of-aefi
-Alias: $event-details = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/event-details
-Alias: $action-taken = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/action-taken
-Alias: $facility-reported = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/facility-reported
-Alias: $treatment-given = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/treatment-given
-Alias: $treatment-details  = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/treatment-details 
-Alias: $specimen-collected = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/specimen-collected
-Alias: $specimen-details  = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/specimen-details 
-Alias: $reaction-severity = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/reaction-severity
-Alias: $aefi-outcome = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/aefi-outcome
+Alias: $types-of-aefi = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/types-of-aefi
+Alias: $event-details = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/event-details
+Alias: $action-taken = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/action-taken
+Alias: $facility-reported = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/facility-reported
+Alias: $treatment-given = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/treatment-given
+Alias: $treatment-details  = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/treatment-details 
+Alias: $specimen-collected = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/specimen-collected
+Alias: $specimen-details  = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/specimen-details 
+Alias: $reaction-severity = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/reaction-severity
+Alias: $aefi-outcome = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/aefi-outcome
 
 Profile: AdverseEventProfile
 Parent: AdverseEvent
@@ -51,7 +51,7 @@ InstanceOf: AdverseEventProfile
 Usage: #example
 Title: "Example Adverse Event"
 Description: "An example instance of an adverse event profile."
-* identifier.system = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/identifiers"
+* identifier.system = "https://chanjoke.intellisoftkenya.com/fhir/identifiers"
 * identifier.value = "AE123456789"
 * actuality = #actual
 * date = "2024-05-12"

@@ -30,7 +30,7 @@ Usage: #example
 Title: "DigitalCertificateCompositionExample"
 Description: "Example of a Digital Certificate Composition"
 * identifier.use = #usual
-* identifier.system = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/identifiers"
+* identifier.system = "https://chanjoke.intellisoftkenya.com/fhir/identifiers"
 * identifier.value = "DC123456789"
 * status = #final
 * subject = Reference(DigitalCertificatePatientExample)

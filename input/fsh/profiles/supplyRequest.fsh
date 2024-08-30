@@ -1,13 +1,13 @@
-Alias: $date-of-last-order = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/date-of-last-order
-Alias: $expected-date-of-next-order = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/expected-date-of-next-order
-Alias: $total-population = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/total-population
-Alias: $children = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/children
-Alias: $pregnant-women = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/pregnant-women
-Alias: $doses-in-stock  = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/doses-in-stock 
-Alias: $minimum = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/minimum
-Alias: $maximum = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/maximum
-Alias: $recommended-stock = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/recommended-stock
-Alias: $ordered-amount = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/ordered-amount
+Alias: $date-of-last-order = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/date-of-last-order
+Alias: $expected-date-of-next-order = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/expected-date-of-next-order
+Alias: $total-population = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/total-population
+Alias: $children = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/children
+Alias: $pregnant-women = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/pregnant-women
+Alias: $doses-in-stock  = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/doses-in-stock 
+Alias: $minimum = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/minimum
+Alias: $maximum = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/maximum
+Alias: $recommended-stock = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/recommended-stock
+Alias: $ordered-amount = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/ordered-amount
 
 Profile: SupplyRequestProfile
 Parent: SupplyRequest
@@ -38,7 +38,7 @@ Description: "A record of a request for a medication, substance or device used i
 // Usage: #example
 // Title: "SupplyRequestProfileExample"
 // Description: "An example of a Supply Request"
-// * identifier.system = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/kenya/supplyRequest"
+// * identifier.system = "https://chanjoke.intellisoftkenya.com/fhir/kenya/supplyRequest"
 // * identifier.use = #official
 // * identifier.value = "123456"
 

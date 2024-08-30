@@ -16,7 +16,7 @@ Usage: #example
 Title: "IMMZ.G CodeSystem for Data Elements"
 Description: "CodeSystem for IMMZ.G (Vaccination Status - Continuity of Care) Data Elements"
 
-// * url = "https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/CodeSystem/IMMZ-G"
+// * url = "https://chanjoke.intellisoftkenya.com/fhir/CodeSystem/IMMZ-G"
 * status = #active
 * experimental = false
 * caseSensitive = false

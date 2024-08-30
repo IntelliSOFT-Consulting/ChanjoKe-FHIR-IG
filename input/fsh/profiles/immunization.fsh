@@ -2,14 +2,14 @@ Alias: $cvx = http://hl7.org/fhir/sid/cvx
 Alias: $vaccines = http://health.gov.tz/CodeSystems/VaccineCodes
 Alias: $mms = http://id.who.int/icd11/mms
 Alias: $v2-0443 = http://terminology.hl7.org/CodeSystem/v2-0443
-Alias: $kenya-healthworker-extension = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/kenya-health-worker-extension
-Alias: $body-weight-extension = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/body-weight-extension
-Alias: $contraindication-to-vaccine =  https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/contraindication-to-vaccine
-Alias: $vaccine-brand =  https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/vaccine-brand
-Alias: $certificate-Issued =  https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/certificate-Issued
-Alias: $certificate-Issue-Date =  https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/certificate-Issue-Date
-Alias: $validity-startdate-certificate =  https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/validity-startdate-certificate
-Alias: $validity-endDate-certificate =  https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/StructureDefinition/validity-endDate-certificate
+Alias: $kenya-healthworker-extension = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/kenya-health-worker-extension
+Alias: $body-weight-extension = https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/body-weight-extension
+Alias: $contraindication-to-vaccine =  https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/contraindication-to-vaccine
+Alias: $vaccine-brand =  https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/vaccine-brand
+Alias: $certificate-Issued =  https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/certificate-Issued
+Alias: $certificate-Issue-Date =  https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/certificate-Issue-Date
+Alias: $validity-startdate-certificate =  https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/validity-startdate-certificate
+Alias: $validity-endDate-certificate =  https://chanjoke.intellisoftkenya.com/fhir/StructureDefinition/validity-endDate-certificate
 
 
 
@@ -95,7 +95,7 @@ Usage: #example
 * lotNumber = "ret-234235"
 * expirationDate = "2023-11-01"
 * performer.function.coding[0] = $v2-0443#AP
-* performer.function.coding[+] = https://intellisoft-consulting.github.io/igs/ChanjoKe-FHIR-IG/tz/actors#xxx
+* performer.function.coding[+] = https://chanjoke.intellisoftkenya.com/fhir/tz/actors#xxx
 * performer.actor = Reference(PractitionerExample)
 
 
