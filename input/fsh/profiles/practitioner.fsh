@@ -38,4 +38,4 @@ Description: "An example of a Kenyan Practitioner"
 * telecom.system = #phone
 * telecom.value = "0722000000"
 * birthDate = "1980-01-01"
-* extension[kenya-administrative-gender-extension].valueCode = IMMZ.A#DE6 
+* extension[kenya-administrative-gender-extension].valueCode = IMMZ.A#53994 
