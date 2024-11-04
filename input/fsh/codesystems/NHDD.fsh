@@ -1,10 +1,13 @@
-CodeSystem:   IMMZ.A
-Title:        "IMMZ.A CodeSystem for Data Elements"
-Description:  "CodeSystem for IMMZ.A Data Elements"
+CodeSystem:   NHDD
+Title:        "NHDD"
+Description:  "Kenya National Health Data Dictionary"
 
 * ^experimental = false
 * ^caseSensitive = false
-* ^name = "IMMZ_A"
+* ^name = "NHDD"
+* ^url = "https://nhdd.health.go.ke/#/"
+* ^status = #active
+* ^language = #en
 * #DE1 "Unique identifier" "Unique identifier for the client, according to the policies applicable to each country. There can be more than one unique identifier used to link records (e.g. national ID, health ID, immunization information system ID, medical record ID)."
 * #DE2 "Name" "The full name of the client."
 * #DE3 "First name" "Client's middle name or given name"
@@ -42,12 +45,12 @@ Description:  "CodeSystem for IMMZ.A Data Elements"
 Instance: IMMZADataElementsCodeSystem
 InstanceOf: CodeSystem
 Usage: #example
-Title: "IMMZ.A CodeSystem for Data Elements"
-Description: "CodeSystem for IMMZ.A Data Elements"
+Title: "NHDD CodeSystem for Data Elements"
+Description: "CodeSystem for NHDD Data Elements"
 
-// * url = "https://chanjoke.intellisoftkenya.com/fhir/CodeSystem/IMMZ-A"
+// * url = "https://chanjoke.intellisoftkenya.com/fhir/CodeSystem/NHDD"
 * version = "1.0.0"
-* name = "IMMZ_A"
+* name = "NHDD"
 * status = #active
 * experimental = false
 * caseSensitive = false

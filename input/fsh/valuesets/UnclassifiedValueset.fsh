@@ -15,8 +15,8 @@ Description:  "Administrative Gender"
 * ^experimental = false
 * ^name = "KHTSADMNGENDER"
 
-* IMMZ.A#53994 
-* IMMZ.A#53995
+* NHDD#53994 
+* NHDD#53995
 
 
 ValueSet: kenyaServiceRequestsVS
