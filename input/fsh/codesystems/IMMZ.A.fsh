@@ -10,8 +10,8 @@ Description:  "CodeSystem for IMMZ.A Data Elements"
 * #DE3 "First name" "Client's middle name or given name"
 * #DE4 "Last name" "Client's family name or last name"
 * #DE5 "Sex" "Documentation of a specific instance of sex information for the client"
-* #DE6 "Male" "Client's biological sex is male"
-* #DE7 "Female" "Client's biological sex is female"
+* #53994 "Male" "Client's biological sex is male"
+* #53995 "Female" "Client's biological sex is female"
 * #DE8 "Other" 
 * #DE10 "Date of Birth" "Client's date of birth (DOB) if known. If unknown, use assigned DOB for administrative purposes."
 * #DE11 "Age in Weeks" "The client's calculated age (number of weeks) based on the date of birth and the visit date"
@@ -74,11 +74,11 @@ Description: "CodeSystem for IMMZ.A Data Elements"
 * concept[4].display = "Sex"
 * concept[4].definition = "Documentation of a specific instance of sex information for the client"
 
-* concept[5].code = #DE6
+* concept[5].code = #53994
 * concept[5].display = "Male"
 * concept[5].definition = "Client's biological sex is male"
 
-* concept[6].code = #DE7
+* concept[6].code = #53995
 * concept[6].display = "Female"
 * concept[6].definition = "Client's biological sex is female"
 
