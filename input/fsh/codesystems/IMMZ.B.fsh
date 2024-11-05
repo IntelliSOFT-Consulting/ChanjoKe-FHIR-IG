@@ -11,12 +11,12 @@ Description:  "CodeSystem for IMMZ.B Data Elements"
 * #DE3 "Negative"
 * #DE4 "Unknown"
 * #DE5 "Client is currently receiving HAART"
-* #DE6 "Yes"
+* #4929 "Yes"
 * #DE7 "No"
 * #DE8 "Maternal HIV status"
-* #DE9 "Positive"
-* #DE10 "Negative"
-* #DE11 "Unknown"
+* #11765 "Positive"
+* #12041 "Negative"
+* #49285 "Unknown"
 * #DE12 "Birth Weight(Kgs)"
 * #DE13 "Place of vaccination"
 * #DE14 "Facility"
@@ -39,8 +39,8 @@ Description:  "CodeSystem for IMMZ.B Data Elements"
 * #DE31 "TST-Positive"
 * #DE32 "TST-Negative"
 * #DE33 "Exposed to close contact with TB"
-* #DE34 "Yes"
-* #DE35 "No"
+* #49290 "Yes"
+* #49288 "No"
 * #DE36 "Client's TST Test Result"
 * #DE37 "TST-Positive"
 * #DE38 "TST-Negative"
@@ -50,25 +50,25 @@ Description:  "CodeSystem for IMMZ.B Data Elements"
 * #DE42 "Negative"
 * #DE43 "Unknown"
 * #DE44 "Type of last Rotavirus dose"
-* #DE45 "Rotavirus-1"
+* #2760 "Rotavirus-1"
 * #DE46 "Rotavirus-2"
 * #DE47 "Rotavirus-3"
 * #DE48 "Any of the previous Rotavirus doses was administered with an unknown product"
 * #DE49 "Type of last Measles-Rubella dose"
-* #DE50 "Measles-Rubella 1"
+* #24014 "Measles-Rubella 1"
 * #DE51 "Measles-Rubella 2"
 * #DE52 "Date started HAART"
 * #DE53 "Number of months since HAART was initiated"
 * #DE54 "Type of last HPV dose"
-* #DE55 "HPV-1"
+* #29656 "HPV-1"
 * #DE56 "HPV-2"
 * #DE57 "Number of months between first and second HPV doses"
 * #DE58 "Type of last PCV10 dose"
-* #DE59 "PCV10-1"
+* #24499 "PCV10-1"
 * #DE60 "PCV10-2"
 * #DE61 "PCV10-3"
 * #DE62 "Type of last DPT-HepB+Hib dose"
-* #DE63 "DPT-HepB+HiB 1"
+* #14676 "DPT-HepB+HiB 1"
 * #DE64 "DPT-HepB+HiB 2"
 * #DE65 "DPT-HepB+HiB 3"
 
@@ -102,7 +102,7 @@ Description: "CodeSystem for IMMZ.B Data Elements"
 * concept[4].code = #DE5
 * concept[4].display = "Client is currently receiving HAART"
 
-* concept[5].code = #DE6
+* concept[5].code = #4929
 * concept[5].display = "Yes"
 
 * concept[6].code = #DE7
@@ -111,13 +111,13 @@ Description: "CodeSystem for IMMZ.B Data Elements"
 * concept[7].code = #DE8
 * concept[7].display = "Maternal HIV status"
 
-* concept[8].code = #DE9
+* concept[8].code = #11765
 * concept[8].display = "Positive"
 
-* concept[9].code = #DE10
+* concept[9].code = #12041
 * concept[9].display = "Negative"
 
-* concept[10].code = #DE11
+* concept[10].code = #49285
 * concept[10].display = "Unknown"
 
 * concept[11].code = #DE12
@@ -186,19 +186,19 @@ Description: "CodeSystem for IMMZ.B Data Elements"
 * concept[32].code = #DE33
 * concept[32].display = "Exposed to close contact with TB"
 
-* concept[33].code = #DE34
+* concept[33].code = #49290
 * concept[33].display = "Yes"
 
-* concept[34].code = #DE35
+* concept[34].code = #49288
 * concept[34].display = "No"
 
 * concept[35].code = #DE36
 * concept[35].display = "Client's TST Test Result"
 
-* concept[36].code = #DE37
+* concept[36].code = #11765
 * concept[36].display = "TST-Positive"
 
-* concept[37].code = #DE38
+* concept[37].code = #12041
 * concept[37].display = "TST-Negative"
 
 * concept[38].code = #DE39
@@ -219,10 +219,10 @@ Description: "CodeSystem for IMMZ.B Data Elements"
 * concept[43].code = #DE44
 * concept[43].display = "Type of last Rotavirus dose"
 
-* concept[44].code = #DE45
+* concept[44].code = #2760
 * concept[44].display = "Rotavirus-1"
 
-* concept[45].code = #DE46
+* concept[45].code = #2760
 * concept[45].display = "Rotavirus-2"
 
 * concept[46].code = #DE47
@@ -234,7 +234,7 @@ Description: "CodeSystem for IMMZ.B Data Elements"
 * concept[48].code = #DE49
 * concept[48].display = "Type of last Measles-Rubella dose"
 
-* concept[49].code = #DE50
+* concept[49].code = #24014
 * concept[49].display = "Measles-Rubella 1"
 
 * concept[50].code = #DE51
@@ -249,7 +249,7 @@ Description: "CodeSystem for IMMZ.B Data Elements"
 * concept[53].code = #DE54
 * concept[53].display = "Type of last HPV dose"
 
-* concept[54].code = #DE55
+* concept[54].code = #29656
 * concept[54].display = "HPV-1"
 
 * concept[55].code = #DE56
@@ -261,7 +261,7 @@ Description: "CodeSystem for IMMZ.B Data Elements"
 * concept[57].code = #DE58
 * concept[57].display = "Type of last PCV10 dose"
 
-* concept[58].code = #DE59
+* concept[58].code = #24499
 * concept[58].display = "PCV10-1"
 
 * concept[59].code = #DE60
@@ -273,7 +273,7 @@ Description: "CodeSystem for IMMZ.B Data Elements"
 * concept[61].code = #DE62
 * concept[61].display = "Type of last DPT-HepB+Hib dose"
 
-* concept[62].code = #DE63
+* concept[62].code = #14676
 * concept[62].display = "DPT-HepB+HiB 1"
 
 * concept[63].code = #DE64
