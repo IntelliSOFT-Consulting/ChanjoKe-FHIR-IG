@@ -67,8 +67,8 @@ Description:  "Exposed to close contact with TB"
 * ^experimental = false
 * ^name = "IMMZB1DE33VS"
 
-* IMMZ.B#DE34 "Yes"
-* IMMZ.B#DE35 "No"
+* IMMZ.B#49290 "Yes"
+* IMMZ.B#49288 "No"
 
 ValueSet: clientTSTTestResult
 Title:        "Client's TST Test Result"
@@ -85,7 +85,7 @@ Description:  "Type of last Rotavirus dose"
 * ^experimental = false
 * ^name = "IMMZB1DE44VS"
 
-* IMMZ.B#DE45 "Rotavirus-1"
+* IMMZ.B#2760 "Rotavirus-1"
 * IMMZ.B#DE46 "Rotavirus-2"
 * IMMZ.B#DE47 "Rotavirus-3"
 
@@ -95,7 +95,7 @@ Description:  "Type of last Measles-Rubella dose"
 * ^experimental = false
 * ^name = "IMMZB1DE49VS"
 
-* IMMZ.B#DE50 "Measles-Rubella 1"
+* IMMZ.B#24014 "Measles-Rubella 1"
 * IMMZ.B#DE51 "Measles-Rubella 2"
 
 ValueSet: typeOfLastHPVDoseVS
@@ -104,7 +104,7 @@ Description:  "Type of last HPV dose"
 * ^experimental = false
 * ^name = "IMMZB1DE54VS"
 
-* IMMZ.B#DE55 "HPV-1"
+* IMMZ.B#29656 "HPV-1"
 * IMMZ.B#DE56 "HPV-2"
 
 ValueSet: typeOfLastPCV10DoseVS
@@ -113,7 +113,7 @@ Description:  "Type of last PCV10 dose"
 * ^experimental = false
 * ^name = "IMMZB1DE58VS"
 
-* IMMZ.B#DE59 "PCV10-1"
+* IMMZ.B#24499 "PCV10-1"
 * IMMZ.B#DE60 "PCV10-2"
 * IMMZ.B#DE61 "PCV10-3"
 
@@ -123,7 +123,7 @@ Description:  "Type of last DPT-HepB+Hib dose"
 * ^experimental = false
 * ^name = "IMMZB1DE62VS"
 
-* IMMZ.B#DE63 "DPT-HepB+HiB 1"
+* IMMZ.B#14676 "DPT-HepB+HiB 1"
 * IMMZ.B#DE64 "DPT-HepB+HiB 2"
 * IMMZ.B#DE65 "DPT-HepB+HiB 3"
 
